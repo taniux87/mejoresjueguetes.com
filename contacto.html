@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto – MejoresJuguetes.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ponte en contacto con MejoresJuguetes.com para consultas, sugerencias o colaboraciones.">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <style>
+    body {
+      padding-top: 110px !important;
+    }
+
+    .contact-form {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .contact-form label {
+      font-weight: 600;
+      margin-bottom: 6px;
+      display: block;
+      color: var(--mont-gray);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      transition: 0.2s ease;
+      background: #fff;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: var(--mont-blue);
+      outline: none;
+      box-shadow: 0 0 4px rgba(123,175,212,0.4);
+    }
+
+    .btn {
+      padding: 12px 20px;
+      background: var(--mont-blue);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.2s ease;
+      width: 100%;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background: var(--mont-green);
+    }
+
+    .alert {
+      display: none;
+      padding: 14px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: 600;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .alert.show {
+      display: block;
+      opacity: 1;
+    }
+
+    .alert.success {
+      background: #C9E8C9;
+      color: #0A3D62;
+      border: 1px solid #8BC48B;
+    }
+
+    .alert.error {
+      background: #F8D7DA;
+      color: #842029;
+      border: 1px solid #F5C2C7;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-flex">
+
+    <div class="logo-box">
+      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <span class="logo-text">MejoresJuguetes.com</span>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="blog.html">Blog</a>
+      <a href="juguetes.html">Juguetes</a>
+      <a href="rankings.html">Rankings</a>
+       <a href="resenas.html">Resenas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    
+    <div class="search-box">
+      <form action="buscar.html" method="GET">
+        <input type="text" name="q" placeholder="Buscar juguetes..." required>
+        <button type="submit">🔍</button>
+      </form>
+    </div>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="background-image: url('img/hero.png');">
+  <div class="container hero-overlay">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas, sugerencias o propuestas? Estamos aquí para ayudarte.</p>
+  </div>
+</section>
+
+<!-- FORMULARIO -->
+<main class="container">
+  <section class="section">
+    <h2>Envíanos un mensaje</h2>
+
+    <form class="contact-form" id="contactForm">
+      <label>Nombre</label>
+      <input type="text" id="nombre" name="nombre">
+
+      <label>Email</label>
+      <input type="email" id="email" name="email">
+
+      <label>Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+
+      <button type="submit" class="btn">Enviar mensaje</button>
+
+      <p id="msgError" class="alert error">⚠️ Por favor, completa todos los campos correctamente.</p>
+      <p id="msgOk" class="alert success">✅ Mensaje enviado correctamente. Gracias por contactarnos.</p>
+    </form>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 MejoresJuguetes.com – Todos los derechos reservados</p>
+    <div class="footer-links">
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="privacidad.html">Política de privacidad</a>
+      <a href="cookies.html">Política de cookies</a>
+      <a href="aviso-legal.html">Aviso legal</a>
+    </div>
+  </div>
+</footer>
+
+<!-- FORM SCRIPT -->
+<script>
+  const form = document.getElementById("contactForm");
+  const msgOk = document.getElementById("msgOk");
+  const msgError = document.getElementById("msgError");
+
+  function showMessage(el) {
+    el.classList.add("show");
+    setTimeout(() => el.classList.remove("show"), 3500);
+  }
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombre").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const mensaje = document.getElementById("mensaje").value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (nombre.length < 2 || !emailRegex.test(email) || mensaje.length < 5) {
+      showMessage(msgError);
+      return;
+    }
+
+    window.location.href =
+      `mailto:contacto@mejoresjuguetes.com?subject=Mensaje desde MejoresJuguetes.com&body=` +
+      `Nombre: ${nombre}%0AEmail: ${email}%0A%0AMensaje:%0A${mensaje}`;
+
+    form.reset();
+    showMessage(msgOk);
+  });
+</script>
+
+</body>
+</html>

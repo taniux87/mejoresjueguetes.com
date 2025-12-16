@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ficha del Juguete – MejoresJuguetes.com</title>
+  <meta name="description" content="Detalles completos del juguete: edad recomendada, tipo, marca, valoración, precio y características.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1152236234412271"
+     crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-flex">
+
+    <div class="logo-box">
+      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <span class="logo-text">MejoresJuguetes.com</span>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="blog.html">Blog</a>
+      <a href="juguetes.html">Juguetes</a>
+      <a href="rankings.html">Rankings</a>
+       <a href="resenas.html">Resenas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="search-box">
+      <form action="buscar.html" method="GET">
+        <input type="text" name="q" placeholder="Buscar juguetes..." required>
+        <button type="submit">🔍</button>
+      </form>
+    </div>
+
+  </div>
+</header>
+
+<!-- CONTENIDO -->
+<main class="container">
+
+  <!-- MIGAS -->
+  <div class="breadcrumbs">
+    <a href="index.html">Inicio</a> › 
+    <a href="juguetes.html">Juguetes</a> › 
+    <span id="nombre-juguete">Nombre del juguete</span>
+  </div>
+
+  <!-- FICHA -->
+  <section class="section ficha-juguete">
+
+    <div class="ficha-grid">
+
+      <div class="ficha-imagen">
+        <img id="imagen-juguete" src="" alt="Juguete">
+      </div>
+
+      <div class="ficha-info">
+        <h1 id="titulo-juguete">Nombre del juguete</h1>
+
+        <p><strong>Edad recomendada:</strong> <span id="edad-juguete"></span></p>
+        <p><strong>Tipo:</strong> <span id="tipo-juguete"></span></p>
+        <p><strong>Marca:</strong> <span id="marca-juguete"></span></p>
+        <p><strong>Valoración:</strong> ⭐ <span id="valoracion-juguete"></span></p>
+
+        <div class="precio-box">
+          <p><strong>Precio aproximado:</strong> <span id="precio-juguete">—</span></p>
+        </div>
+
+        <a id="amazon-link" href="#" target="_blank" class="btn-amazon">
+          Ver en Amazon
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DESCRIPCIÓN -->
+  <section class="section">
+    <h2>Descripción</h2>
+    <p id="descripcion-juguete"></p>
+  </section>
+
+  <!-- CARACTERÍSTICAS -->
+  <section class="section">
+    <h2>Características principales</h2>
+    <ul id="caracteristicas-juguete"></ul>
+  </section>
+
+  <!-- RELACIONADOS -->
+  <section class="section">
+    <h2>Juguetes relacionados</h2>
+    <div id="relacionados" class="grid"></div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 MejoresJuguetes.com – Todos los derechos reservados</p>
+    <div class="footer-links">
+      <a href="privacidad.html">Política de privacidad</a>
+      <a href="cookies.html">Política de cookies</a>
+      <a href="aviso-legal.html">Aviso legal</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

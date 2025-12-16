@@ -1,0 +1,469 @@
+/* --------------------------------------------------
+   TEMA MONTESSORI PREMIUM – SUAVE, LIMPIO, ELEGANTE
+-------------------------------------------------- */
+
+:root {
+  --mont-blue:   #7BAFD4;
+  --mont-green:  #A8D5BA;
+  --mont-beige:  #F4EDE2;
+  --mont-gray:   #6B6B6B;
+  --mont-white:  #FFFFFF;
+
+  --shadow: rgba(0,0,0,0.08);
+}
+
+/* BASE */
+body {
+  background: var(--mont-beige);
+  color: var(--mont-gray);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: var(--mont-blue);
+}
+
+/* Enlaces */
+a {
+  color: var(--mont-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: var(--mont-green);
+}
+
+/* --------------------------------------------------
+   HEADER
+-------------------------------------------------- */
+
+.header {
+  background: var(--mont-white);
+  border-bottom: 2px solid var(--mont-blue);
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* LOGO UNIFICADO */
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--mont-blue);
+}
+
+/* MENÚ */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu a {
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: var(--mont-gray);
+}
+
+.menu a:hover {
+  background: var(--mont-blue);
+  color: var(--mont-white);
+}
+
+.menu a.active {
+  background: var(--mont-green);
+  color: var(--mont-white);
+}
+
+/* BUSCADOR */
+.search-box form {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.search-box input {
+  background: var(--mont-white);
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--mont-gray);
+}
+
+.search-box button {
+  background: var(--mont-blue);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--mont-white);
+}
+
+.search-box button:hover {
+  background: var(--mont-green);
+}
+
+/* --------------------------------------------------
+   HERO
+-------------------------------------------------- */
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(255,255,255,0.85);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero-overlay h2 {
+  color: var(--mont-blue);
+}
+
+.hero-overlay p {
+  color: var(--mont-gray);
+}
+
+/* --------------------------------------------------
+   SECCIONES
+-------------------------------------------------- */
+
+.section {
+  background: var(--mont-white);
+  padding: 40px;
+  border-radius: 12px;
+  margin: 40px 0;
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+/* --------------------------------------------------
+   GRID Y CARDS
+-------------------------------------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: var(--mont-white);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px var(--shadow);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* --------------------------------------------------
+   RANKINGS
+-------------------------------------------------- */
+
+.ranking-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ranking-card {
+  display: flex;
+  align-items: center;
+  background: var(--mont-white);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px var(--shadow);
+  gap: 20px;
+  transition: 0.3s;
+}
+
+.ranking-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.ranking-numero {
+  font-size: 40px;
+  font-weight: 900;
+  width: 60px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px 0;
+  color: var(--mont-white);
+}
+
+.ranking-numero.oro {
+  background: #E8D27C;
+  color: #000;
+}
+
+.ranking-numero.plata {
+  background: #D0D0D0;
+  color: #000;
+}
+
+.ranking-numero.bronce {
+  background: #C48A4A;
+  color: #fff;
+}
+
+.ranking-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+
+.footer {
+  background: var(--mont-white);
+  padding: 30px 0;
+  border-top: 2px solid var(--mont-blue);
+  text-align: center;
+}
+
+.footer a:hover {
+  color: var(--mont-green);
+}
+/* --------------------------------------------------
+   HEADER FIJO Y CONSISTENTE EN TODAS LAS PÁGINAS
+-------------------------------------------------- */
+
+/* Altura fija del header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: 80px; /* altura estable */
+  display: flex;
+  align-items: center;
+}
+
+/* Para que el contenido NO quede debajo del header */
+body {
+  padding-top: 100px; /* espacio para el header fijo */
+}
+
+/* Ajuste del contenedor del header */
+.header-flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo siempre igual */
+.logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+/* Menú siempre alineado */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Hero separado del header */
+.hero {
+  margin-top: 20px; /* evita que el hero se pegue al header */
+}
+/* ============================================
+   HEADER FIJO UNIFICADO (SOLUCIÓN DEFINITIVA)
+============================================ */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px; /* ALTURA FIJA REAL */
+  background: var(--mont-white);
+  border-bottom: 2px solid var(--mont-blue);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  padding-top: 110px !important; /* ESPACIO EXACTO PARA EL HEADER */
+}
+
+/* Elimina cualquier variación entre páginas */
+.header-flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo siempre igual */
+.logo-img {
+  width: 42px !important;
+  height: 42px !important;
+  object-fit: contain;
+}
+
+/* Menú siempre igual */
+.menu a {
+  padding: 10px 15px !important;
+  display: inline-block;
+}
+
+/* Hero separado del header */
+.hero {
+  margin-top: 10px !important;
+}
+/* LOGO MÁS GRANDE Y VISIBLE */
+.logo-img {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 22px !important;
+}
+/* ============================================
+   TIPOGRAFÍA MONTESSORI – TEXTO MÁS OSCURO
+============================================ */
+
+/* Texto general */
+body, p, li, span, a {
+  color: #444 !important; /* gris oscuro suave */
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  color: #2f4f5f !important; /* azul grisáceo Montessori */
+  font-weight: 700;
+}
+
+/* Texto del hero */
+.hero-overlay h2 {
+  color: #2f4f5f !important;
+}
+
+.hero-overlay p {
+  color: #444 !important;
+}
+
+/* Cards */
+.card p {
+  color: #555 !important;
+}
+
+.card h3 {
+  color: #2f4f5f !important;
+}
+
+/* Menú */
+.menu a {
+  color: #444 !important;
+}
+
+.menu a:hover {
+  color: white !important;
+}
+
+/* Footer */
+.footer p,
+.footer a {
+  color: #444 !important;
+}
+
+/* Formularios */
+.contact-form label {
+  color: #444 !important;
+}
+
+.contact-form input,
+.contact-form textarea {
+  color: #333 !important;
+}
+/* ============================================
+   TARJETAS MONTESSORI PASTEL
+============================================ */
+
+:root {
+  --pastel-rosa:    #F7DDE2;
+  --pastel-azul:    #D8E9F6;
+  --pastel-verde:   #DCEFE3;
+  --pastel-amarillo:#FFF3C8;
+}
+
+/* Fondo pastel cíclico */
+.card:nth-child(4n+1) {
+  background: var(--pastel-rosa) !important;
+}
+
+.card:nth-child(4n+2) {
+  background: var(--pastel-azul) !important;
+}
+
+.card:nth-child(4n+3) {
+  background: var(--pastel-verde) !important;
+}
+
+.card:nth-child(4n+4) {
+  background: var(--pastel-amarillo) !important;
+}
+
+/* Bordes suaves Montessori */
+.card {
+  border: 2px solid rgba(0,0,0,0.05) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06) !important;
+}
+
+/* Texto más oscuro para contraste */
+.card h3,
+.card p {
+  color: #444 !important;
+}
