@@ -23,12 +23,12 @@
       <span class="logo-text">MejoresJuguetes.com</span>
     </div>
 
-   <nav class="menu">
-      <a href="index.html" class="active">Inicio</a>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
       <a href="blog.html">Blog</a>
-      <a href="juguetes.html">Juguetes</a>
+      <a href="juguetes.html" class="active">Juguetes</a>
       <a href="rankings.html">Rankings</a>
-       <a href="resenas.html">Resenas</a>
+      <a href="resenas.html">Reseñas</a>
       <a href="contacto.html">Contacto</a>
     </nav>
 
@@ -53,45 +53,211 @@
 <!-- CONTENIDO -->
 <main class="container">
 
-  <!-- FILTROS -->
-  <section class="section">
-    <h2>Filtrar juguetes</h2>
-
-    <div class="grid">
-
-      <div class="card filtro" data-filtro="edad">
-        <h3>Por edad</h3>
-        <p>0-2, 3-5, 6-8, 9-12…</p>
-      </div>
-
-      <div class="card filtro" data-filtro="tipo">
-        <h3>Por tipo</h3>
-        <p>STEM, Montessori, creatividad…</p>
-      </div>
-
-      <div class="card filtro" data-filtro="marca">
-        <h3>Por marca</h3>
-        <p>Lego, Playmobil, Fisher-Price…</p>
-      </div>
-
-      <div class="card filtro" data-filtro="valoracion">
-        <h3>Por valoración</h3>
-        <p>Los mejor puntuados</p>
-      </div>
-
-    </div>
-  </section>
-
   <!-- CATÁLOGO -->
   <section class="section">
     <h2>Todos los juguetes</h2>
 
     <div id="catalogo" class="grid">
-      <!-- Aquí cargaremos juguetes reales desde API -->
+
+      <!-- 1 -->
+      <a href="https://www.amazon.es/dp/B0B6LZ8Z6C?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/71pZ1WY5n-L._AC_SL1500_.jpg" alt="Bloques Montessori de Madera">
+        <h3>Bloques Montessori de Madera</h3>
+        <p>Juego sensorial para motricidad fina.</p>
+        <p><strong>⭐ 4.7</strong></p>
+      </a>
+
+      <!-- 2 -->
+      <a href="https://www.amazon.es/dp/B07ZQZ3X8F?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/71t8uKXu95L._AC_SL1500_.jpg" alt="Torre de Aprendizaje Montessori">
+        <h3>Torre de Aprendizaje Montessori</h3>
+        <p>Autonomía y participación en casa.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
+      <!-- 3 -->
+      <a href="https://www.amazon.es/dp/B08Z3Z8Z7M?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81t9Zp2hKTL._AC_SL1500_.jpg" alt="Puzzle de Madera Educativo">
+        <h3>Puzzle de Madera Educativo</h3>
+        <p>Aprendizaje de formas y colores.</p>
+        <p><strong>⭐ 4.5</strong></p>
+      </a>
+
+      <!-- 4 -->
+      <a href="https://www.amazon.es/dp/B0B1H8Q6YF?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81p8uYv3YVL._AC_SL1500_.jpg" alt="Juego STEM de Engranajes">
+        <h3>Juego STEM de Engranajes</h3>
+        <p>Construcción y pensamiento lógico.</p>
+        <p><strong>⭐ 4.7</strong></p>
+      </a>
+
+      <!-- 5 -->
+      <a href="https://www.amazon.es/dp/B08P3Y8Z8C?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81p7Yp9uGDL._AC_SL1500_.jpg" alt="Kit de Ciencia para Niños">
+        <h3>Kit de Ciencia para Niños</h3>
+        <p>Experimentos seguros y educativos.</p>
+        <p><strong>⭐ 4.8</strong></p>
+      </a>
+
+      <!-- 6 -->
+      <a href="https://www.amazon.es/dp/B09V7J4Q7G?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81z8mZ4Yp2L._AC_SL1500_.jpg" alt="Mesa de Luz Montessori">
+        <h3>Mesa de Luz Montessori</h3>
+        <p>Estimulación visual y creatividad.</p>
+        <p><strong>⭐ 4.8</strong></p>
+      </a>
+
+      <!-- 7 -->
+      <a href="https://www.amazon.es/dp/B0C5QZ8H7P?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/71m4pUu1x-L._AC_SL1500_.jpg" alt="Robot STEM Programable">
+        <h3>Robot STEM Programable</h3>
+        <p>Programación básica y juego interactivo.</p>
+        <p><strong>⭐ 4.9</strong></p>
+      </a>
+
+      <!-- 8 -->
+      <a href="https://www.amazon.es/dp/B0C2Z8Q8QF?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81Yp3u9xYTL._AC_SL1500_.jpg" alt="Set Montessori 2025">
+        <h3>Set Montessori 2025</h3>
+        <p>Material sensorial actualizado.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
+      <!-- 9 -->
+      <a href="https://www.amazon.es/dp/B0C8MZ7Z9H?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81Zp8u9ZKJL._AC_SL1500_.jpg" alt="Juego Creativo 2025">
+        <h3>Juego Creativo 2025</h3>
+        <p>Manualidades, arte y creatividad libre.</p>
+        <p><strong>⭐ 4.5</strong></p>
+      </a>
+
+      <!-- 10 -->
+      <a href="https://www.amazon.es/dp/B0C7QZ8Z8L?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81p8uYv3YVL._AC_SL1500_.jpg" alt="Bloques Magnéticos Premium">
+        <h3>Bloques Magnéticos Premium</h3>
+        <p>Construcciones 3D y juego libre.</p>
+        <p><strong>⭐ 4.7</strong></p>
+      </a>
+
+      <!-- 11 -->
+      <a href="https://www.amazon.es/dp/B0B8QZ8Z7M?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81t9Zp2hKTL._AC_SL1500_.jpg" alt="Juego de Construcción Creativa">
+        <h3>Juego de Construcción Creativa</h3>
+        <p>Piezas para crear estructuras libres.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
+      <!-- 12 -->
+      <a href="https://www.amazon.es/dp/B0B9MZ7Z9H?tag=librarium01-21" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/81Zp8u9ZKJL._AC_SL1500_.jpg" alt="Set de Manualidades 2025">
+        <h3>Set de Manualidades 2025</h3>
+        <p>Materiales variados para crear.</p>
+        <p><strong>⭐ 4.5</strong></p>
+      </a>
+
+      <!-- 13 -->
+      <a href="https://www.amazon.es/s?k=abaco+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/1/thumbnail.jpg" alt="Ábaco de colores para niños">
+        <h3>Ábaco de colores para niños</h3>
+        <p>Primeros pasos en matemáticas.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
+      <!-- 14 -->
+      <a href="https://www.amazon.es/s?k=torre+apilable+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/2/thumbnail.jpg" alt="Torre apilable de madera">
+        <h3>Torre apilable de madera</h3>
+        <p>Coordinación ojo-mano y tamaños.</p>
+        <p><strong>⭐ 4.4</strong></p>
+      </a>
+
+      <!-- 15 -->
+      <a href="https://www.amazon.es/s?k=encaje+formas+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/3/thumbnail.jpg" alt="Juego de encaje de formas">
+        <h3>Juego de encaje de formas</h3>
+        <p>Formas básicas y motricidad fina.</p>
+        <p><strong>⭐ 4.5</strong></p>
+      </a>
+
+      <!-- 16 -->
+      <a href="https://www.amazon.es/s?k=xilofono+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/4/thumbnail.jpg" alt="Xilófono musical infantil">
+        <h3>Xilófono musical infantil</h3>
+        <p>Introducción a la música y el ritmo.</p>
+        <p><strong>⭐ 4.3</strong></p>
+      </a>
+
+      <!-- 17 -->
+      <a href="https://www.amazon.es/s?k=mesa+actividad+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/5/thumbnail.jpg" alt="Mesa de actividades educativa">
+        <h3>Mesa de actividades educativa</h3>
+        <p>Juegos variados en un solo espacio.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
+      <!-- 18 -->
+      <a href="https://www.amazon.es/s?k=rompecabezas+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/6/thumbnail.jpg" alt="Set de rompecabezas de animales">
+        <h3>Set de rompecabezas de animales</h3>
+        <p>Observación, lógica y coordinación.</p>
+        <p><strong>⭐ 4.5</strong></p>
+      </a>
+
+      <!-- 19 -->
+      <a href="https://www.amazon.es/s?k=juego+pesca+magnetica+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/7/thumbnail.jpg" alt="Juego de pesca magnética">
+        <h3>Juego de pesca magnética</h3>
+        <p>Juego simbólico y coordinación.</p>
+        <p><strong>⭐ 4.4</strong></p>
+      </a>
+
+      <!-- 20 -->
+      <a href="https://www.amazon.es/s?k=tabla+equilibrio+montessori&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/8/thumbnail.jpg" alt="Tabla de equilibrio Montessori">
+        <h3>Tabla de equilibrio Montessori</h3>
+        <p>Equilibrio, fuerza y juego libre.</p>
+        <p><strong>⭐ 4.7</strong></p>
+      </a>
+
+      <!-- 21 -->
+      <a href="https://www.amazon.es/s?k=caja+permanencia+montessori&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/9/thumbnail.jpg" alt="Caja de permanencia Montessori">
+        <h3>Caja de permanencia Montessori</h3>
+        <p>Concepto de permanencia del objeto.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
+      <!-- 22 -->
+      <a href="https://www.amazon.es/s?k=libros+sensoriales+bebe&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/10/thumbnail.jpg" alt="Libros sensoriales para bebé">
+        <h3>Libros sensoriales para bebé</h3>
+        <p>Texturas, sonidos y colores.</p>
+        <p><strong>⭐ 4.5</strong></p>
+      </a>
+
+      <!-- 23 -->
+      <a href="https://www.amazon.es/s?k=domin%C3%B3+de+colores+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/11/thumbnail.jpg" alt="Dominó de colores">
+        <h3>Dominó de colores</h3>
+        <p>Secuencias, colores y conteo.</p>
+        <p><strong>⭐ 4.4</strong></p>
+      </a>
+
+      <!-- 24 -->
+      <a href="https://www.amazon.es/s?k=torre+arcoiris+apilable+niños&tag=librarium01-21" class="card" target="_blank">
+        <img src="https://i.dummyjson.com/data/products/12/thumbnail.jpg" alt="Torre arcoíris apilable">
+        <h3>Torre arcoíris apilable</h3>
+        <p>Clasificación por tamaño y color.</p>
+        <p><strong>⭐ 4.6</strong></p>
+      </a>
+
     </div>
 
+    <!-- PAGINACIÓN -->
     <div id="paginacion" class="paginacion">
-      <!-- Aquí irá la paginación real -->
+      <a href="juguetes.html" class="active">1</a>
+      <a href="juguetes-page2.html">2</a>
+      <a href="juguetes-page3.html">3</a>
     </div>
 
   </section>
