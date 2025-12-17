@@ -467,3 +467,78 @@ h1, h2, h3, h4 {
 .card p {
   color: #444 !important;
 }
+/* ====== ESTILO GLOBAL MONTESSORI ====== */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #FAF9F6;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+/* ====== HEADER FIJO ====== */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #A7C7E7; /* azul pastel Montessori */
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+}
+
+.header nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== ESPACIADO PARA QUE EL HEADER NO TAPE EL CONTENIDO ====== */
+
+main {
+  padding-top: 80px;
+}
+
+/* ====== BOTONES PASTEL ====== */
+
+.categoria-btn {
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: 0.2s ease;
+  border: none;
+}
+
+.montessori { background: #A7C7E7; }
+.munecas { background: #F7C6D0; }
+.monsterflex { background: #CDECC9; }
+.puzzles { background: #F9E7A8; }
+.generales { background: #E3D4F3; }
+
+.categoria-btn:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
