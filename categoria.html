@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Categoría de Juguetes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<h1 id="tituloCategoria">Cargando...</h1>
+
+<div id="listaJuguetes"></div>
+
+<script>
+  async function cargarCategoria() {
+    const params = new URLSearchParams(window.location.search);
+    const categoria = params.get("cat");
+
+    if (!categoria) {
+      document.getElementById("tituloCategoria").textContent = "Categoría no encontrada";
+      return;
+    }
+
+    // Cargar JSON
+    const res = await fetch("juguetes.json");
+    const data = await res.json();
+
+    const juguetes = data[categoria];
+
+    if (!juguetes) {
+      document.getElementById("tituloCategoria").textContent = "Categoría vacía";
+      return;
+    }
+
+    document.getElementById("tituloCategoria").textContent =
+      "Juguetes de la categoría: " + categoria;
+
+    const contenedor = document.getElementById("listaJuguetes");
+
+    // Crear lista
+    for (const asin in juguetes) {
+      const item = juguetes[asin];
+
+      const div = document.createElement("div");
+      div.style.margin = "20px 0";
+
+      div.innerHTML = `
+        <a href="juguete.html?cat=${categoria}&id=${asin}">
+          ${item.titulo || asin}
+        </a>
+      `;
+
+      contenedor.appendChild(div);
+    }
+  }
+
+  cargarCategoria();
+</script>
+
+</body>
+</html>
