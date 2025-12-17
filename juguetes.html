@@ -220,60 +220,30 @@ async function cargarJuguetes() {
   juguetesData = await res.json();
 }
 
-  /* ✅ CONFIGURACIÓN */
-  const AFFILIATE_TAG = "mejoresjuguetes-21";
-  const MAX_RESULTS = 12;
+ /* ✅ CONFIGURACIÓN */
+const AFFILIATE_TAG = "mejoresjuguetes-21";
+const MAX_RESULTS = 12;
 
-  let paginaActual = 0;
-  let categoriaActual = "";
-  let subcategoriaActual = "";
+let paginaActual = 0;
+let categoriaActual = "";
+let subcategoriaActual = "";
 
-  /* ✅ SUBPESTAÑAS Y QUERIES (ADAPTADAS A JUGUETES) */
-  const SUBTABS = {
-    infantil: {
-      "0–3 años": "juguetes bebes 0 3 años sensoriales",
-      "3–5 años": "juguetes 3 5 años educativos",
-      "6–8 años": "juguetes 6 8 años creatividad",
-      "9–12 años": "juguetes 9 12 años construccion",
-      "12–16 años": "juguetes 12 16 años tecnologia"
-    },
+/* ⭐ SUBTABS GENERADOS AUTOMÁTICAMENTE DESDE juguetes.json */
+let SUBTABS = {};
 
-    generos: {
-      "Montessori": "juguetes montessori madera",
-      "Creatividad": "juguetes creatividad manualidades",
-      "Exterior": "juguetes exterior aire libre",
-      "Construcción": "juguetes construccion bloques",
-      "Sensoriales": "juguetes sensoriales bebes",
-      "Juego simbólico": "juguetes juego simbolico cocinitas",
-      "STEM": "juguetes stem robotica",
-      "Educativos": "juguetes educativos aprendizaje"
-    },
+/* Genera pestañas y subpestañas según las categorías reales del JSON */
+function generarSubtabsDesdeJSON() {
+  SUBTABS = {};
 
-    edades: {
-      "0–3 años": "juguetes bebes 0 3 años",
-      "3–5 años": "juguetes 3 5 años",
-      "6–8 años": "juguetes 6 8 años",
-      "9–12 años": "juguetes 9 12 años",
-      "12–16 años": "juguetes 12 16 años",
-      "Adultos": "juguetes adultos coleccion figuras"
-    },
+  Object.keys(juguetesData).forEach(categoria => {
+    SUBTABS[categoria] = {};
 
-    editoriales: {
-      "LEGO": "lego sets juguetes construccion",
-      "Playmobil": "playmobil juguetes",
-      "Fisher‑Price": "fisher price juguetes bebes",
-      "Hasbro": "hasbro juguetes",
-      "Mattel": "mattel juguetes"
-    },
-
-    texto: {
-      "Sensoriales": "juguetes sensoriales",
-      "Motricidad": "juguetes motricidad fina",
-      "Lenguaje": "juguetes lenguaje aprendizaje",
-      "Matemáticas": "juguetes matematicas educativos"
-    }
-  };
-
+    Object.keys(juguetesData[categoria]).forEach(id => {
+      const titulo = juguetesData[categoria][id].titulo || id;
+      SUBTABS[categoria][id] = titulo;
+    });
+  });
+}
   /* ✅ UTILIDADES */
   function generarEstrellas(rating) {
     const r = Number(rating) || 0;
@@ -314,40 +284,47 @@ async function cargarJuguetes() {
    return ` <a href="${enlace}" class="card" target="_blank"> <img src="${imagen}" alt="${titulo}"> <h3>${titulo}</h3> <p><strong>${marca}</strong></p> <p>${generarEstrellas(rating)}</p> </a> `; }
 
   /* ✅ CARGAR SUBPESTAÑAS */
-  function cargarSubtabs() {
-    const cont = document.getElementById("subtabs");
-    cont.innerHTML = "";
+/* ✅ CARGAR SUBPESTAÑAS DESDE SUBTABS GENERADO */
+function cargarSubtabs() {
+  const cont = document.getElementById("subtabs");
+  cont.innerHTML = "";
 
-    const subtabs = SUBTABS[categoriaActual];
-    const keys = Object.keys(subtabs);
+  const subtabs = SUBTABS[categoriaActual];
+  const keys = Object.keys(subtabs);
 
-    keys.forEach((nombre, index) => {
-      cont.innerHTML += `
-        <button class="subtab-btn ${index === 0 ? "active" : ""}" data-sub="${nombre}">${nombre}</button>
-      `;
-    });
+  keys.forEach((nombre, index) => {
+    cont.innerHTML += `
+      <button class="subtab-btn ${index === 0 ? "active" : ""}" data-sub="${nombre}">
+        ${nombre}
+      </button>
+    `;
+  });
 
-    subcategoriaActual = keys[0];
-  }
-
-  /* ✅ CARGAR RESULTADOS */
-  async function cargarCategoria() {
-    const subtabs = SUBTABS[categoriaActual];
-    if (!subtabs) return;
-
-    const query = subtabs[subcategoriaActual];
-    if (!query) return;
-
+  subcategoriaActual = keys[0];
+}
+ /* ✅ CARGAR RESULTADOS CON PAGINACIÓN REAL */
+async function cargarCategoria() {
   const { items, total } = await buscarJuguetes(categoriaActual, subcategoriaActual);
 
-    document.getElementById("resultados").innerHTML = items.map(card).join("");
+  // Calcular paginación
+  const inicio = paginaActual * MAX_RESULTS;
+  const fin = inicio + MAX_RESULTS;
+  const paginaItems = items.slice(inicio, fin);
 
-    const totalPaginas = Math.max(1, Math.ceil(total / MAX_RESULTS));
-    document.getElementById("infoPagina").textContent = `Página ${paginaActual + 1} de ${totalPaginas}`;
+  // Mostrar tarjetas
+  document.getElementById("resultados").innerHTML = paginaItems.map(card).join("");
 
-    document.getElementById("btnAnterior").disabled = paginaActual === 0;
-    document.getElementById("btnSiguiente").disabled = paginaActual >= totalPaginas - 1;
-  }
+  // Total de páginas
+  const totalPaginas = Math.ceil(total / MAX_RESULTS);
+
+  // Mostrar info
+  document.getElementById("infoPagina").textContent =
+    `Página ${paginaActual + 1} de ${totalPaginas}`;
+
+  // Botones
+  document.getElementById("btnAnterior").disabled = paginaActual === 0;
+  document.getElementById("btnSiguiente").disabled = paginaActual >= totalPaginas - 1;
+}
 
   /* ✅ EVENTOS: PESTAÑAS PRINCIPALES */
   document.querySelectorAll(".tab-btn").forEach(btn => {
@@ -389,12 +366,14 @@ async function cargarJuguetes() {
     cargarCategoria();
   });
 
-  /* ✅ CARGA INICIAL */
-  categoriaActual = "infantil";
+ /* ✅ CARGA INICIAL */
+(async () => {
+  await cargarJuguetes();
+  generarSubtabsDesdeJSON();
+  categoriaActual = Object.keys(SUBTABS)[0];
   cargarSubtabs();
   cargarCategoria();
-  await cargarJuguetes();
-
+})();
 </script>
 
 </body>
