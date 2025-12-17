@@ -175,11 +175,10 @@
   <!-- ✅ PESTAÑAS PRINCIPALES (igual estilo que Rankings) -->
   <section class="section">
     <div class="tabs">
-      <button class="tab-btn active" data-main="infantil">Infantil</button>
-      <button class="tab-btn" data-main="generos">Tipos</button>
-      <button class="tab-btn" data-main="edades">Edades</button>
-      <button class="tab-btn" data-main="editoriales">Marcas</button>
-      <button class="tab-btn" data-main="texto">Juguetes educativos</button>
+     <button class="tab-btn active" data-main="montessori">Montessori</button>
+     <button class="tab-btn" data-main="munecas">Muñecas</button>
+     <button class="tab-btn" data-main="puzzles">Puzzles</button>
+     <button class="tab-btn" data-main="juguetes">Juguetes</button>
     </div>
   </section>
 
@@ -215,35 +214,36 @@
 <script>
   let juguetesData = {};
 
-async function cargarJuguetes() {
-  const res = await fetch("juguetes.json");
-  juguetesData = await res.json();
-}
+  async function cargarJuguetes() {
+    const res = await fetch("juguetes.json");
+    juguetesData = await res.json();
+  }
 
- /* ✅ CONFIGURACIÓN */
-const AFFILIATE_TAG = "mejoresjuguetes-21";
-const MAX_RESULTS = 12;
+  /* ✅ CONFIGURACIÓN */
+  const AFFILIATE_TAG = "mejoresjuguetes-21";
+  const MAX_RESULTS = 12;
 
-let paginaActual = 0;
-let categoriaActual = "";
-let subcategoriaActual = "";
+  let paginaActual = 0;
+  let categoriaActual = "";
+  let subcategoriaActual = "";
 
-/* ⭐ SUBTABS GENERADOS AUTOMÁTICAMENTE DESDE juguetes.json */
-let SUBTABS = {};
+  /* ⭐ SUBTABS GENERADOS AUTOMÁTICAMENTE DESDE juguetes.json */
+  let SUBTABS = {};
 
-/* Genera pestañas y subpestañas según las categorías reales del JSON */
-function generarSubtabsDesdeJSON() {
-  SUBTABS = {};
+  /* Genera pestañas y subpestañas según las categorías reales del JSON */
+  function generarSubtabsDesdeJSON() {
+    SUBTABS = {};
 
-  Object.keys(juguetesData).forEach(categoria => {
-    SUBTABS[categoria] = {};
+    Object.keys(juguetesData).forEach(categoria => {
+      SUBTABS[categoria] = {};
 
-    Object.keys(juguetesData[categoria]).forEach(id => {
-      const titulo = juguetesData[categoria][id].titulo || id;
-      SUBTABS[categoria][id] = titulo;
+      Object.keys(juguetesData[categoria]).forEach(id => {
+        const titulo = juguetesData[categoria][id].titulo || id;
+        SUBTABS[categoria][id] = titulo;
+      });
     });
-  });
-}
+  }
+
   /* ✅ UTILIDADES */
   function generarEstrellas(rating) {
     const r = Number(rating) || 0;
@@ -256,75 +256,82 @@ function generarSubtabsDesdeJSON() {
     return (3.5 + (seed % 13) / 10).toFixed(1);
   }
 
-  
- async function buscarJuguetes(categoria, subcategoria) { if (!juguetesData[categoria] || !juguetesData[categoria][subcategoria]) { return { items: [], total: 0 }; } const items = Object.values(juguetesData[categoria][subcategoria]); return { items, total: items.length }; }
-
-  function portada(info) {
-    const isbn = info.industryIdentifiers?.[0]?.identifier;
-
-    if (isbn) {
-      return `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+  async function buscarJuguetes(categoria, subcategoria) {
+    const categoriaObj = juguetesData[categoria];
+    if (!categoriaObj) {
+      return { items: [], total: 0 };
     }
 
-    if (info.imageLinks?.thumbnail) {
-      return info.imageLinks.thumbnail.replace(/^http:\/\//, "https://");
+    if (!subcategoria) {
+      const items = Object.values(categoriaObj);
+      return { items, total: items.length };
     }
 
-    // Imagen por defecto adaptada a juguetes
-    return "img/juguete-default.png";
+    const item = categoriaObj[subcategoria];
+    if (!item) {
+      return { items: [], total: 0 };
+    }
+
+    return { items: [item], total: 1 };
   }
 
-  function enlaceAmazon(titulo, autor) {
-    const query = encodeURIComponent(`${titulo} ${autor} juguete`);
-    return `https://www.amazon.es/s?k=${query}&tag=${AFFILIATE_TAG}`;
-  }
+  function card(item) {
+    const titulo = item.titulo || "Juguete sin nombre";
+    const marca = item.marca || "Marca desconocida";
+    const rating = item.rating || ratingAlternativo(titulo);
+    const imagen = item.imagenAmazon || "img/juguete-default.png";
+    const enlace = item.amazon + `?tag=${AFFILIATE_TAG}`;
 
-  function card(item) { const titulo = item.titulo || "Juguete sin nombre"; const marca = item.marca || "Marca desconocida"; const rating = item.rating || ratingAlternativo(titulo); const imagen = item.imagenAmazon || "img/juguete-default.png"; const enlace = item.amazon + `?tag=${AFFILIATE_TAG}`;
-
-   return ` <a href="${enlace}" class="card" target="_blank"> <img src="${imagen}" alt="${titulo}"> <h3>${titulo}</h3> <p><strong>${marca}</strong></p> <p>${generarEstrellas(rating)}</p> </a> `; }
-
-  /* ✅ CARGAR SUBPESTAÑAS */
-/* ✅ CARGAR SUBPESTAÑAS DESDE SUBTABS GENERADO */
-function cargarSubtabs() {
-  const cont = document.getElementById("subtabs");
-  cont.innerHTML = "";
-
-  const subtabs = SUBTABS[categoriaActual];
-  const keys = Object.keys(subtabs);
-
-  keys.forEach((nombre, index) => {
-    cont.innerHTML += `
-      <button class="subtab-btn ${index === 0 ? "active" : ""}" data-sub="${nombre}">
-        ${nombre}
-      </button>
+    return `
+      <a href="${enlace}" class="card" target="_blank">
+        <img src="${imagen}" alt="${titulo}">
+        <h3>${titulo}</h3>
+        <p><strong>${marca}</strong></p>
+        <p>${generarEstrellas(rating)}</p>
+      </a>
     `;
-  });
+  }
 
-  subcategoriaActual = keys[0];
-}
- /* ✅ CARGAR RESULTADOS CON PAGINACIÓN REAL */
-async function cargarCategoria() {
-  const { items, total } = await buscarJuguetes(categoriaActual, subcategoriaActual);
+  /* ✅ CARGAR SUBPESTAÑAS DESDE SUBTABS GENERADO */
+  function cargarSubtabs() {
+    const cont = document.getElementById("subtabs");
+    cont.innerHTML = "";
 
-  // Calcular paginación
-  const inicio = paginaActual * MAX_RESULTS;
-  const fin = inicio + MAX_RESULTS;
-  const paginaItems = items.slice(inicio, fin);
+    const subtabs = SUBTABS[categoriaActual];
+    if (!subtabs) return;
 
-  // Mostrar tarjetas
-  document.getElementById("resultados").innerHTML = paginaItems.map(card).join("");
+    const keys = Object.keys(subtabs);
 
-  // Total de páginas
-  const totalPaginas = Math.ceil(total / MAX_RESULTS);
+    keys.forEach((id, index) => {
+      const titulo = subtabs[id];
+      cont.innerHTML += `
+        <button class="subtab-btn ${index === 0 ? "active" : ""}" data-sub="${id}">
+          ${titulo}
+        </button>
+      `;
+    });
 
-  // Mostrar info
-  document.getElementById("infoPagina").textContent =
-    `Página ${paginaActual + 1} de ${totalPaginas}`;
+    subcategoriaActual = keys[0];
+  }
 
-  // Botones
-  document.getElementById("btnAnterior").disabled = paginaActual === 0;
-  document.getElementById("btnSiguiente").disabled = paginaActual >= totalPaginas - 1;
-}
+  /* ✅ CARGAR RESULTADOS CON PAGINACIÓN REAL */
+  async function cargarCategoria() {
+    const { items, total } = await buscarJuguetes(categoriaActual, subcategoriaActual);
+
+    const inicio = paginaActual * MAX_RESULTS;
+    const fin = inicio + MAX_RESULTS;
+    const paginaItems = items.slice(inicio, fin);
+
+    document.getElementById("resultados").innerHTML = paginaItems.map(card).join("");
+
+    const totalPaginas = Math.max(1, Math.ceil(total / MAX_RESULTS));
+
+    document.getElementById("infoPagina").textContent =
+      `Página ${paginaActual + 1} de ${totalPaginas}`;
+
+    document.getElementById("btnAnterior").disabled = paginaActual === 0;
+    document.getElementById("btnSiguiente").disabled = paginaActual >= totalPaginas - 1;
+  }
 
   /* ✅ EVENTOS: PESTAÑAS PRINCIPALES */
   document.querySelectorAll(".tab-btn").forEach(btn => {
@@ -366,15 +373,14 @@ async function cargarCategoria() {
     cargarCategoria();
   });
 
- /* ✅ CARGA INICIAL */
-(async () => {
-  await cargarJuguetes();
-  generarSubtabsDesdeJSON();
-  categoriaActual = Object.keys(SUBTABS)[0];
-  cargarSubtabs();
-  cargarCategoria();
-})();
+  /* ✅ CARGA INICIAL */
+  (async () => {
+    await cargarJuguetes();
+    generarSubtabsDesdeJSON();
+    categoriaActual = Object.keys(SUBTABS)[0];
+    cargarSubtabs();
+    cargarCategoria();
+  })();
 </script>
-
 </body>
 </html>
