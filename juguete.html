@@ -5,37 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detalle del Juguete</title>
 
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #FAF9F6;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-      color: #444;
-    }
+  <!-- CSS principal del sitio -->
+  <link rel="stylesheet" href="css/estilos.css">
 
-    .card {
-      max-width: 500px;
-      margin: 0 auto;
+  <!-- CSS Montessori global -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .juguete-card {
+      max-width: 600px;
+      margin: 40px auto;
       background: white;
       padding: 25px;
       border-radius: 14px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      text-align: center;
     }
 
-    img {
+    .juguete-card img {
       width: 100%;
       border-radius: 12px;
       margin-bottom: 20px;
     }
 
-    h1 {
+    .juguete-card h1 {
       font-size: 1.8rem;
       margin-bottom: 10px;
     }
 
-    .info {
+    .juguete-info {
       font-size: 1rem;
       margin-bottom: 20px;
       color: #666;
@@ -78,49 +76,90 @@
 
 <body>
 
-  <div class="card">
-    <img id="imagen" src="" alt="Imagen del juguete">
+<!-- HEADER REAL -->
+<header class="header">
+  <div class="container header-flex">
 
-    <h1 id="titulo">Cargando...</h1>
-
-    <div class="info">
-      <p id="edad"></p>
-      <p id="marca"></p>
-      <p id="descripcion"></p>
+    <div class="logo-box">
+      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <span class="logo-text">MejoresJuguetes.com</span>
     </div>
 
-    <div class="btns">
-      <a id="amazon" class="btn amazon" target="_blank">Comprar en Amazon</a>
-      <a id="aliexpress" class="btn aliexpress" target="_blank">Comprar en AliExpress</a>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="blog.html">Blog</a>
+      <a href="juguetes.html" class="active">Juguetes</a>
+      <a href="rankings.html">Rankings</a>
+      <a href="resenas.html">Reseñas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="search-box">
+      <form action="buscar.html" method="GET">
+        <input type="text" name="q" placeholder="Buscar juguetes..." required>
+        <button type="submit">🔍</button>
+      </form>
     </div>
 
-    <a href="javascript:history.back()" class="back">← Volver</a>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO (opcional, igual que en otras páginas) -->
+<section class="hero" style="background-image: url('img/hero.png');">
+  <div class="container hero-overlay">
+    <h2>Detalle del juguete</h2>
+    <p>Información completa y enlaces de compra.</p>
+  </div>
+</section>
+
+<!-- TARJETA DEL JUGUETE -->
+<div class="juguete-card">
+  <img id="imagen" src="" alt="Imagen del juguete">
+
+  <h1 id="titulo">Cargando...</h1>
+
+  <div class="juguete-info">
+    <p id="edad"></p>
+    <p id="marca"></p>
+    <p id="descripcion"></p>
   </div>
 
-  <script>
-    async function cargarJuguete() {
-      const params = new URLSearchParams(window.location.search);
-      const categoria = params.get("cat");
-      const id = params.get("id");
+  <div class="btns">
+    <a id="amazon" class="btn amazon" target="_blank">Comprar en Amazon</a>
+    <a id="aliexpress" class="btn aliexpress" target="_blank">Comprar en AliExpress</a>
+  </div>
 
-      const res = await fetch("juguetes.json");
-      const data = await res.json();
+  <a href="javascript:history.back()" class="back">← Volver</a>
+</div>
 
-      const juguete = data[categoria][id];
+</main>
 
-      document.getElementById("titulo").textContent = juguete.titulo || "Juguete";
-      document.getElementById("edad").textContent = juguete.edad ? "Edad: " + juguete.edad : "";
-      document.getElementById("marca").textContent = juguete.marca ? "Marca: " + juguete.marca : "";
-      document.getElementById("descripcion").textContent = juguete.descripcion || "";
+<script>
+  async function cargarJuguete() {
+    const params = new URLSearchParams(window.location.search);
+    const categoria = params.get("cat");
+    const id = params.get("id");
 
-      document.getElementById("imagen").src = juguete.imagenAmazon || "https://via.placeholder.com/500x500?text=Sin+Imagen";
+    const res = await fetch("juguetes.json");
+    const data = await res.json();
 
-      document.getElementById("amazon").href = juguete.amazon;
-      document.getElementById("aliexpress").href = juguete.aliexpress;
-    }
+    const juguete = data[categoria][id];
 
-    cargarJuguete();
-  </script>
+    document.getElementById("titulo").textContent = juguete.titulo || "Juguete";
+    document.getElementById("edad").textContent = juguete.edad ? "Edad: " + juguete.edad : "";
+    document.getElementById("marca").textContent = juguete.marca ? "Marca: " + juguete.marca : "";
+    document.getElementById("descripcion").textContent = juguete.descripcion || "";
+
+    document.getElementById("imagen").src = juguete.imagenAmazon || "https://via.placeholder.com/500x500?text=Sin+Imagen";
+
+    document.getElementById("amazon").href = juguete.amazon;
+    document.getElementById("aliexpress").href = juguete.aliexpress;
+  }
+
+  cargarJuguete();
+</script>
 
 </body>
 </html>
