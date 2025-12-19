@@ -897,7 +897,7 @@
         { "titulo": "Peluches Reversibles de Pulpo (Original)", "marca": "TeeTurtle", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B07H499YTY", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Muestra tu estado de ánimo con estos icónicos peluches de dos colores." },
         { "titulo": "Coche de Control Remoto Anfibio", "marca": "Lexibook", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9S9X1Z", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Gira 360 grados y corre tanto por tierra como por agua." },
         { "titulo": "Máquina de Pegatinas Personalizadas", "marca": "Stationery Team", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87758", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Convierte cualquier dibujo o foto en una pegatina brillante."} 
-    }
+      ] 
   }
     "tendencias_virales_y_educacion_stem": {
       "titulo": "Coleccionables de Moda, Robótica y Arte Creativo",
@@ -923,7 +923,7 @@
         { "titulo": "Estudio de Tatuajes Temporales", "marca": "Clementoni Crazy Chic", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0DVB87771", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Aerógrafo manual y plantillas para crear body art seguro y lavable." },
         { "titulo": "Microscopio de Bolsillo 60x-120x", "marca": "Carson MicroBrite", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00LAX52IQ", "imagenAmazon": "https://m.media-amazon.com/images/I/51Q2R3O4WXL.jpg", "descripcion": "Potente, ligero y con luz LED, ideal para excursiones al campo." }
      
-  }
+      ] 
 }
     "educacion_montessori_y_tecnologia_creativa": {
       "titulo": "Montessori, Robótica Hidráulica y Peluches Térmicos",
