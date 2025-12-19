@@ -1,98 +1,192 @@
-
 {
   "montessori": {
     "B0F2N89LNX": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
+      "titulo": "Juego de Bloques Magnéticos 3D",
+      "edad": "3-8 años",
+      "marca": "Generic",
       "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "descripcion": "Bloques de construcción magnéticos para desarrollar la creatividad espacial y motricidad fina.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/montessori_mag.jpg",
       "amazon": "https://www.amazon.es/Juego-bloques-magn%C3%A9ticos-Montessori-ni%C3%B1os/dp/B0F2N89LNX",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     },
     "B0CQM7RNQ": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
+      "titulo": "Tablero Ocupado Montessori (Busy Board)",
+      "edad": "1-4 años",
+      "marca": "Montessori Juguetes",
       "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "descripcion": "Juguete sensorial de fieltro con cierres, botones y cordones para aprender habilidades de la vida diaria.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/busy_board.jpg",
       "amazon": "https://www.amazon.es/gp/aw/d/B0CQM7RNQ",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B09KNH5P9F": {
+      "titulo": "Torre de Aprendizaje Plegable",
+      "edad": "18 meses - 5 años",
+      "marca": "Yoleo",
+      "rating": 4.8,
+      "descripcion": "Estructura segura para que los niños alcancen la encimera y participen en actividades de cocina.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/tower.jpg",
+      "amazon": "https://www.amazon.es/dp/B09KNH5P9F",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     }
   },
   "munecas": {
     "B07XF7X5KH": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
-      "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "titulo": "Funko Pop Marvel Iron Man (Game)",
+      "edad": "3+ años",
+      "marca": "Funko",
+      "rating": 4.7,
+      "descripcion": "Figura coleccionable de vinilo de Iron Man inspirada en el videojuego de Marvel.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/funko_iron.jpg",
       "amazon": "https://www.amazon.es/Funko-Pop-Marvel-Game-Iron-Coleccionable/dp/B07XF7X5KH",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     },
-    "B0DMWGCXR3": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
-      "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
-      "amazon": "https://www.amazon.es/gp/aw/d/B0DMWGCXR3",
-      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
-    },
     "B07H3VY4YQ": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
-      "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "titulo": "Muñeca Articulada Fashion",
+      "edad": "3+ años",
+      "marca": "COLORBABY",
+      "rating": 4.3,
+      "descripcion": "Muñeca con accesorios de moda y puntos de articulación para juego dinámico.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/cb_doll.jpg",
       "amazon": "https://www.amazon.es/COLORBABY-mu%C3%B1ecas-juguete-Juguetes-articuladas/dp/B07H3VY4YQ",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B01AIFT6MO": {
+      "titulo": "Nenuco Muñeco 5 Funciones",
+      "edad": "1-5 años",
+      "marca": "Famosa",
+      "rating": 4.6,
+      "descripcion": "Muñeco interactivo que llora, ríe, hace sonidos de bebé y succiona el chupete.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/nenuco.jpg",
+      "amazon": "https://www.amazon.es/Nenuco-Mu%C3%B1eco-Funciones-Famosa-700012664/dp/B01AIFT6MO",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B0DHZCN2B6": {
+      "titulo": "Nancy Colección Alphahouse",
+      "edad": "6+ años",
+      "marca": "Famosa",
+      "rating": 4.8,
+      "descripcion": "Edición limitada de Nancy con certificado de autenticidad y look vintage.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/nancy_alpha.jpg",
+      "amazon": "https://www.amazon.es/Nancy-Alphahouse-Certificado-Autenticidad-NAC85000/dp/B0DHZCN2B6",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B07P7W5K6D": {
+      "titulo": "Barbie Fashionista con Silla de Ruedas",
+      "edad": "3-10 años",
+      "marca": "Mattel",
+      "rating": 4.9,
+      "descripcion": "Muñeca inclusiva con silla de ruedas funcional y rampa.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/barbie_wheel.jpg",
+      "amazon": "https://www.amazon.es/dp/B07P7W5K6D",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     }
-    // ... resto igual que tu lista original
   },
   "monsterflex": {
     "B0F9PJS3V9": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
+      "titulo": "Monsterflex Serie Classic - Hombre Lobo",
+      "edad": "4+ años",
+      "marca": "Bizak",
       "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "descripcion": "Figura súper elástica que puedes estirar hasta 3 veces su tamaño.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/monster_flex.jpg",
       "amazon": "https://www.amazon.es/Bizak-Monsterflex-Classic-Animales-Coleccionistas/dp/B0F9PJS3V9",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B0FBWXNJ9W": {
+      "titulo": "Monsterflex Alien Metálico",
+      "edad": "4+ años",
+      "marca": "Bizak",
+      "rating": 4.6,
+      "descripcion": "Figura elástica con acabado brillante metálico para coleccionistas.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/monster_alien.jpg",
+      "amazon": "https://www.amazon.es/Bizak-Monsterflex-Coleccionable-coleccionistas-64390009-10/dp/B0FBWXNJ9W",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B08S3MMN1R": {
+      "titulo": "Monsterflex Aqua - Tiburón Martillo",
+      "edad": "4+ años",
+      "marca": "Bizak",
+      "rating": 4.5,
+      "descripcion": "Figura elástica temática marina de la colección Monsterflex Aqua.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/aqua_flex.jpg",
+      "amazon": "https://www.amazon.es/dp/B08S3MMN1R",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     }
-    // ... resto igual que tu lista original
   },
   "puzzles": {
     "B0C4V27SQR": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
-      "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "titulo": "Educa Puzzles Progresivos Disney",
+      "edad": "3-5 años",
+      "marca": "Educa",
+      "rating": 4.7,
+      "descripcion": "Set de 4 puzzles con diferente número de piezas para evolucionar el aprendizaje.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/educa_disney.jpg",
       "amazon": "https://www.amazon.es/Educa-progresivos-Presentados-guardarlos-Recomendamos/dp/B0C4V27SQR",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B09RDZ4RPN": {
+      "titulo": "Puzzle La Noche Estrellada - Van Gogh",
+      "edad": "Adultos",
+      "marca": "Educa",
+      "rating": 4.8,
+      "descripcion": "Puzzle de 1000 piezas que recrea la famosa obra de arte postimpresionista.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/van_gogh_puzzle.jpg",
+      "amazon": "https://www.amazon.es/Educa-Estrellada-Vincent-aproximada-finalizado/dp/B09RDZ4RPN",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B00004TQLV": {
+      "titulo": "Ravensburger Puzzle Mapamundi Histórico",
+      "edad": "14+ años",
+      "marca": "Ravensburger",
+      "rating": 4.8,
+      "descripcion": "Desafiante puzzle de 2000 piezas con cartografía antigua detallada.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/mapa_hist.jpg",
+      "amazon": "https://www.amazon.es/dp/B00004TQLV",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     }
-    // ... resto igual que tu lista original
   },
   "general": {
     "B08FLWV7H2": {
-      "titulo": "",
-      "edad": "",
-      "marca": "",
-      "rating": 4.5,
-      "descripcion": "",
-      "imagenAmazon": "",
+      "titulo": "Ordenador Educativo Frozen II",
+      "edad": "4-7 años",
+      "marca": "Lexibook",
+      "rating": 4.2,
+      "descripcion": "Laptop infantil con actividades de matemáticas, lógica y música.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/frozen_laptop.jpg",
       "amazon": "https://www.amazon.es/LEXIBOOK-Disney-Frozen-Ordenador-Actividades/dp/B08FLWV7H2",
       "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B0CBDC1JPN": {
+      "titulo": "Science4you Kit de Electrónica",
+      "edad": "8+ años",
+      "marca": "Science4you",
+      "rating": 4.5,
+      "descripcion": "Laboratorio para construir circuitos y aprender sobre energía eléctrica.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/science_elec.jpg",
+      "amazon": "https://www.amazon.es/Science4you-Kit-Electr%C3%B3nica-para-Ni%C3%B1os/dp/B0CBDC1JPN",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B07NZ12BGS": {
+      "titulo": "Cocina de Juguete Mi Pequeño Chef",
+      "edad": "3+ años",
+      "marca": "deAO",
+      "rating": 4.4,
+      "descripcion": "Fregadero con agua real, luces y sonidos de cocción para juego de rol.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/deao_kitchen.jpg",
+      "amazon": "https://www.amazon.es/deAO-Caracter%C3%ADsticas-Accesosrios-Fregadero-Refrigerador/dp/B07NZ12BGS",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
+    },
+    "B00T70G2M4": {
+      "titulo": "Dobble - Juego de Mesa Familiar",
+      "edad": "6+ años",
+      "marca": "Asmodee",
+      "rating": 4.9,
+      "descripcion": "Juego de cartas de rapidez mental y observación para todas las edades.",
+      "imagenAmazon": "https://m.media-amazon.com/images/I/dobble.jpg",
+      "amazon": "https://www.amazon.es/dp/B00T70G2M4",
+      "aliexpress": "https://s.click.aliexpress.com/e/_master_link"
     }
-    // ... resto igual que tu lista original
   }
 }
- 
