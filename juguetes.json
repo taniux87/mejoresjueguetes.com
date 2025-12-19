@@ -697,7 +697,7 @@
         { "titulo": "Protector de Cubierta (Deck) para Patinete", "marca": "Ninebot", "rating": 4.5, "amazon": "https://www.amazon.es/dp/B0BVB87724", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Goma antideslizante de alta calidad para renovar el grip de tu scooter." }, 
       ]
      } 
-    }
+    }, 
   "juego_exterior": {
     "jardin_y_diversion_aire_libre": {
       "titulo": "Exterior: Camas Elásticas, Casitas y Piscinas",
@@ -961,5 +961,6 @@
         { "titulo": "Estación Meteorológica para Niños", "marca": "4M Green Science", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87780", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Mide el viento, la lluvia y crea un efecto invernadero en una botella." }, 
       ]
     }
-    
+   } 
+  } 
 
