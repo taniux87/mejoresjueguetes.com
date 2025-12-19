@@ -3,19 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Rankings de Juguetes – MejoresJuguetes.com</title>
-  <meta name="description" content="Los mejores rankings de juguetes 2025: automáticos y actualizados.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/estilos.css">
 
   <style>
-    /* ✅ ESTILOS DE PAGINACIÓN Y CONTROL DE VISIBILIDAD */
-    .ranking-page { 
-      display: none; 
-      animation: fadeIn 0.5s ease; 
-    }
-    .ranking-page.active { 
-      display: block; 
-    }
+    /* ✅ CONTROL DE VISIBILIDAD DE PÁGINAS */
+    .ranking-page { display: none; animation: fadeIn 0.5s ease; }
+    .ranking-page.active { display: block; }
     
     .paginacion {
       display: flex;
@@ -25,14 +19,13 @@
     }
 
     .pag-btn {
-      padding: 10px 20px;
+      padding: 12px 24px;
       background: #0A3D62;
       color: white;
       border: none;
-      border-radius: 5px;
+      border-radius: 8px;
       cursor: pointer;
       font-weight: bold;
-      text-decoration: none;
       transition: all 0.3s ease;
     }
 
@@ -40,25 +33,22 @@
       background: #C9A86A;
       color: #111;
       transform: scale(1.1);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
 
-    /* Ajuste de imágenes para evitar el icono roto del video */
     .card img {
       width: 100%;
       height: 200px;
       object-fit: contain;
-      background: #fdfdfd;
+      background: #fff;
       border-radius: 10px;
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
   </style>
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1152236234412271"
-     crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -66,10 +56,9 @@
 <header class="header">
   <div class="container header-flex">
     <div class="logo-box">
-      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <img src="img/hero.png" alt="Logo" class="logo-img">
       <span class="logo-text">MejoresJuguetes.com</span>
     </div>
-
    <nav class="menu">
       <a href="index.html">Inicio</a>
       <a href="blog.html">Blog</a>
@@ -78,7 +67,6 @@
       <a href="resenas.html">Reseñas</a>
       <a href="contacto.html">Contacto</a>
     </nav>
-
     <div class="search-box">
       <form action="buscar.html" method="GET">
         <input type="text" name="q" placeholder="Buscar juguetes..." required>
@@ -91,16 +79,16 @@
 <section class="hero" style="background-image: url('img/hero.png');">
   <div class="container hero-overlay">
     <h2>Rankings de juguetes</h2>
-    <p>Los juguetes más recomendados, valorados y vendidos del año 2025.</p>
+    <p>Los 30 mejores juguetes divididos por categorías interactivas.</p>
   </div>
 </section>
 
 <main class="container">
 
   <div class="paginacion">
-    <button class="pag-btn active" onclick="cambiarPagina(1, this)">1</button>
-    <button class="pag-btn" onclick="cambiarPagina(2, this)">2</button>
-    <button class="pag-btn" onclick="cambiarPagina(3, this)">3</button>
+    <button class="pag-btn active" onclick="cambiarPagina(1)">1</button>
+    <button class="pag-btn" onclick="cambiarPagina(2)">2</button>
+    <button class="pag-btn" onclick="cambiarPagina(3)">3</button>
   </div>
 
   <div id="pag1" class="ranking-page active">
@@ -108,29 +96,44 @@
       <h2>Top 10 Consolas y Gaming 2025</h2>
       <div class="ranking-grid">
         <a href="https://www.amazon.es/dp/B0CLT5YF67?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/51Q2R3O4WXL.jpg" onerror="this.src='img/hero.png'" alt="PS5 Slim">
-          <h3>PlayStation 5 Slim 1TB</h3>
-          <p>⭐ 4.9</p>
+          <img src="https://m.media-amazon.com/images/I/51Q2R3O4WXL.jpg" onerror="this.src='img/hero.png'">
+          <h3>PlayStation 5 Slim 1TB</h3><p>⭐ 4.9</p>
         </a>
         <a href="https://www.amazon.es/dp/B098RKBCS7?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="Nintendo Switch OLED">
-          <h3>Nintendo Switch OLED</h3>
-          <p>⭐ 4.9</p>
+          <img src="https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Nintendo Switch OLED</h3><p>⭐ 4.9</p>
         </a>
         <a href="https://www.amazon.es/dp/B08H75RTZ8?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="Xbox Series X">
-          <h3>Xbox Series X 1TB</h3>
-          <p>⭐ 4.8</p>
+          <img src="https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Xbox Series X 1TB</h3><p>⭐ 4.8</p>
         </a>
         <a href="https://www.amazon.es/dp/B08H99BPJN?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="Mando DualSense">
-          <h3>Mando PS5 DualSense</h3>
-          <p>⭐ 4.9</p>
+          <img src="https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Mando PS5 DualSense</h3><p>⭐ 4.9</p>
         </a>
         <a href="https://www.amazon.es/dp/B013Y78X60?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg" onerror="this.src='img/hero.png'" alt="Volante Logitech">
-          <h3>Volante Logitech G29 Pro</h3>
-          <p>⭐ 4.7</p>
+          <img src="https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Volante Logitech G29 Pro</h3><p>⭐ 4.7</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0CLT5YF68?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>PlayStation Portal Remote</h3><p>⭐ 4.7</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BVB87728?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/71u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Switch Pro Zelda Edition</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B08DF6H17B?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Kit Carga y Juega Xbox</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B09P9S9X1V?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/91TIdyV9SFL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Teclado SteelSeries Apex</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0C3S7Y8NB?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Monitor Gaming Arzopa</h3><p>⭐ 4.8</p>
         </a>
       </div>
     </section>
@@ -141,19 +144,44 @@
       <h2>Top 10 Muñecas y Accesorios</h2>
       <div class="ranking-grid">
         <a href="https://www.amazon.es/dp/B0BVB87720?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg" onerror="this.src='img/hero.png'" alt="Barbie Mansion">
-          <h3>Barbie Mansión de Ensueño</h3>
-          <p>⭐ 4.9</p>
+          <img src="https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Barbie Mansión de Ensueño</h3><p>⭐ 4.9</p>
         </a>
         <a href="https://www.amazon.es/dp/B08VWBK7NA?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="Nancy Un Dia">
-          <h3>Nancy Espejo de Secretos</h3>
-          <p>⭐ 4.8</p>
+          <img src="https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Nancy Espejo de Secretos</h3><p>⭐ 4.8</p>
         </a>
         <a href="https://www.amazon.es/dp/B0C3S8Y9NW?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="LOL Surprise">
-          <h3>L.O.L. Surprise! OMG</h3>
-          <p>⭐ 4.8</p>
+          <img src="https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>L.O.L. Surprise! OMG</h3><p>⭐ 4.8</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B09P9S9X1U?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/91TIdyV9SFL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Bebés Llorones Dressy</h3><p>⭐ 4.7</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BVB87722?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Enchantimals Parque Infantil</h3><p>⭐ 4.7</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BNM7P6R7?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Muñeco Reborn Realista</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BVB87723?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Monster High: Clawdeen</h3><p>⭐ 4.8</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BNM5P5A?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Casa de Muñecas Madera</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B01H5B5U8O?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Sylvanian Families Casa</h3><p>⭐ 5.0</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0C7S7Y8N8?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Pinypon: Ambulatorio</h3><p>⭐ 4.8</p>
         </a>
       </div>
     </section>
@@ -164,23 +192,53 @@
       <h2>Top 10 Tendencias y Virales 2025</h2>
       <div class="ranking-grid">
         <a href="https://www.amazon.es/dp/B0BVB87755?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="Bitzee">
-          <h3>Bitzee Mascota Digital</h3>
-          <p>⭐ 4.9</p>
+          <img src="https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Bitzee Mascota Digital</h3><p>⭐ 4.9</p>
         </a>
         <a href="https://www.amazon.es/dp/B0DVB87759?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71u-R3S8s6L.jpg" onerror="this.src='img/hero.png'" alt="Labubu">
-          <h3>Labubu The Monsters (Viral)</h3>
-          <p>⭐ 5.0</p>
+          <img src="https://m.media-amazon.com/images/I/71u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Labubu The Monsters</h3><p>⭐ 5.0</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BVB87757?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Peluches Squishmallows</h3><p>⭐ 5.0</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B09BNM5P5D?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Magic Mixies Caldero</h3><p>⭐ 4.8</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0C3S8Y9NZ?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Furby Interactivo 2025</h3><p>⭐ 4.8</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0C7S7Y8N5?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg" onerror="this.src='img/hero.png'">
+          <h3>Cookeez Makery Oven</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0CLT5YF73?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Bitzee Harry Potter</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B07B7GDRW1?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>GraviTrax Starter Set</h3><p>⭐ 4.9</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0BVB87760?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81R+V3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Tamagotchi Uni Wi-Fi</h3><p>⭐ 4.8</p>
+        </a>
+        <a href="https://www.amazon.es/dp/B0DVB87765?tag=librarium01-21" class="card" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg" onerror="this.src='img/hero.png'">
+          <h3>Bolas Locas Magnéticas</h3><p>⭐ 4.8</p>
         </a>
       </div>
     </section>
   </div>
 
   <div class="paginacion">
-    <button class="pag-btn active" onclick="cambiarPagina(1, this)">1</button>
-    <button class="pag-btn" onclick="cambiarPagina(2, this)">2</button>
-    <button class="pag-btn" onclick="cambiarPagina(3, this)">3</button>
+    <button class="pag-btn active" onclick="cambiarPagina(1)">1</button>
+    <button class="pag-btn" onclick="cambiarPagina(2)">2</button>
+    <button class="pag-btn" onclick="cambiarPagina(3)">3</button>
   </div>
 
 </main>
@@ -189,50 +247,23 @@
   <div class="container">
     <p>© 2025 MejoresJuguetes.com – Todos los derechos reservados</p>
     <div class="footer-links">
-      <a href="privacidad.html">Política de privacidad</a>
-      <a href="cookies.html">Política de cookies</a>
+      <a href="privacidad.html">Privacidad</a>
+      <a href="cookies.html">Cookies</a>
       <a href="aviso-legal.html">Aviso legal</a>
     </div>
   </div>
 </footer>
 
 <script>
-  /**
-   * FUNCIÓN DE CAMBIO DE PÁGINA SIN RECARGAR
-   * Soluciona el error 404 del video al no buscar archivos externos.
-   */
-  function cambiarPagina(numero, boton) {
-    // 1. Ocultar todas las páginas
-    document.querySelectorAll('.ranking-page').forEach(page => {
-      page.classList.remove('active');
+  function cambiarPagina(n) {
+    document.querySelectorAll('.ranking-page').forEach(p => p.classList.remove('active'));
+    document.getElementById('pag' + n).classList.add('active');
+    document.querySelectorAll('.pag-btn').forEach(b => {
+      b.classList.remove('active');
+      if(b.innerText == n) b.classList.add('active');
     });
-
-    // 2. Mostrar la página seleccionada
-    const paginaSeleccionada = document.getElementById('pag' + numero);
-    if(paginaSeleccionada) {
-      paginaSeleccionada.classList.add('active');
-    }
-
-    // 3. Actualizar los botones de paginación (superior e inferior)
-    document.querySelectorAll('.pag-btn').forEach(btn => {
-      btn.classList.remove('active');
-      // Si el texto del botón coincide con el número, lo activamos
-      if(btn.innerText == numero) {
-        btn.classList.add('active');
-      }
-    });
-
-    // 4. Scroll suave al inicio del contenido
     window.scrollTo({ top: 350, behavior: 'smooth' });
   }
-
-  /**
-   * INICIALIZACIÓN
-   * Asegura que siempre se vea la página 1 al entrar.
-   */
-  window.onload = () => {
-    console.log("Rankings cargados correctamente.");
-  };
 </script>
 
 </body>
