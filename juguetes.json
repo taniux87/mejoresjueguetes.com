@@ -312,6 +312,7 @@
         { "titulo": "Goo Jit Zu DC - Cyborg", "marca": "Goo Jit Zu", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BSG7N8J4", "imagenAmazon": "https://m.media-amazon.com/images/I/71uV8W+HkYL.jpg", "descripcion": "Relleno de piezas metálicas y gel azul." },
         { "titulo": "Stretch - Rey Star Wars", "marca": "Stretch Armstrong", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87695", "imagenAmazon": "https://m.media-amazon.com/images/I/71e-R3S8s6L.jpg", "descripcion": "La heroína Jedi en formato extra flexible." }
       ]
+     } 
     }, 
   "puzzles": {
     "puzzles_3d_y_coleccionismo": {
