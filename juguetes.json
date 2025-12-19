@@ -83,7 +83,7 @@
         { "titulo": "Ábaco de Madera Vertical", "marca": "Goula Abacus", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B000WTTYGG", "imagenAmazon": "https://m.media-amazon.com/images/I/71z+V3S8s6L.jpg", "descripcion": "Cálculo de unidades, decenas y centenas." },
         { "titulo": "Juego de Enlazar Formas", "marca": "Melissa & Doug Lacing", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B00000IZQQ", "imagenAmazon": "https://m.media-amazon.com/images/I/71p.jpg", "descripcion": "Mejora la pinza y la paciencia." },
         { "titulo": "Espejo de Seguridad Montessori", "marca": "Bebé Lab", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08G8Y5TYY", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Irrompible para autoconocimiento en bebés." },
-        { "titulo": "Set de Figuras del Ciclo de Vida", "marca": "Safari Ltd Life", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B000GZID5K", "imagenAmazon": "https://m.media-amazon.com/images/I/71uV8W+HkYL.jpg", "descripcion": "Evolución de rana, mariposa y planta." }
+        { "titulo": "Set de Figuras del Ciclo de Vida", "marca": "Safari Ltd Life", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B000GZID5K", "imagenAmazon": "https://m.media-amazon.com/images/I/71uV8W+HkYL.jpg", "descripcion": "Evolución de rana, mariposa y planta." }, 
       ]
      } 
     },
@@ -110,7 +110,7 @@
         { "titulo": "Sylvanian Families - Casa de Campo", "marca": "Epoch", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00S9Y7J3Y", "imagenAmazon": "https://m.media-amazon.com/images/I/61z+V3S8s6L.jpg", "descripcion": "Ideal para coleccionistas de miniaturas." },
         { "titulo": "Rainbow High - Muñeca de Moda Ruby", "marca": "MGA", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08VWBK7N7", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Totalmente articulada con ropa de lujo." },
         { "titulo": "Coche para Muñecas - Sillita de Paseo", "marca": "Bayer Design", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B01B1I9V4U", "imagenAmazon": "https://m.media-amazon.com/images/I/71x-R3S8s6L.jpg", "descripcion": "Diseño moderno y plegable para transporte fácil." },
-        { "titulo": "Muñeca Rapunzel Pelo Infinito", "marca": "Disney Princess", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07N1K2X5B", "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg", "descripcion": "Pelo de 45 cm con accesorios para peinar." }
+        { "titulo": "Muñeca Rapunzel Pelo Infinito", "marca": "Disney Princess", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07N1K2X5B", "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg", "descripcion": "Pelo de 45 cm con accesorios para peinar." }, 
       ]
     },
     "colecciones_modernas": {
@@ -130,7 +130,7 @@
         { "titulo": "Monster High - Lagoona Blue", "marca": "Mattel", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B09P9N9X5W", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Inspirada en el monstruo marino con detalles translúcidos." },
         { "titulo": "LOL Surprise Hair Hair Hair", "marca": "MGA", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9O9X6Y", "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg", "descripcion": "Incluye pelo real para peinar y accesorios únicos." },
         { "titulo": "Rainbow High Color & Create", "marca": "MGA", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9N8", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Diseña y pinta la ropa de tu muñeca con rotuladores lavables." },
-        { "titulo": "Monster High - Deuce Gorgon", "marca": "Mattel", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9P9X7Z", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "El hijo de Medusa con sus icónicas gafas de sol." }
+        { "titulo": "Monster High - Deuce Gorgon", "marca": "Mattel", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9P9X7Z", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "El hijo de Medusa con sus icónicas gafas de sol." }, 
       ]
     },
     "variedad_y_accesorios_lujo": {
@@ -155,7 +155,7 @@
         { "titulo": "Rainbow High - Set de Salon de Peluquería", "marca": "MGA", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0C3S8Y9N8", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Espuma de color para el pelo de la muñeca y el tuyo." },
         { "titulo": "Monster High - Cleo de Nile", "marca": "Mattel", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B09P9O9X6Y", "imagenAmazon": "https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg", "descripcion": "La reina de las momias con accesorios dorados y mascota." },
         { "titulo": "Little Live Pets - Pajaritos Parlanchines", "marca": "Famosa", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B00FZMBS66", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Graba tu voz y la repite con sonidos de pájaro." },
-        { "titulo": "Barriguitas - Edición Coleccionista 70s", "marca": "Famosa", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0006PKZ1I", "imagenAmazon": "https://m.media-amazon.com/images/I/81kO7t+EACL.jpg", "descripcion": "Réplica fiel de las primeras Barriguitas." }
+        { "titulo": "Barriguitas - Edición Coleccionista 70s", "marca": "Famosa", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0006PKZ1I", "imagenAmazon": "https://m.media-amazon.com/images/I/81kO7t+EACL.jpg", "descripcion": "Réplica fiel de las primeras Barriguitas." }, 
       ]
     },
     "colecciones_populares_y_sets": {
@@ -180,7 +180,7 @@
         { "titulo": "Nenuco - ¿Está malito?", "marca": "Famosa", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B084P5X5T2", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Incluye termómetro, medicina y vacunas de juguete." },
         { "titulo": "Rainbow High - Salon de Maquillaje", "marca": "MGA", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C3S8Y9N9", "imagenAmazon": "https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg", "descripcion": "Tocador de lujo con luces reales y cosméticos de juguete." },
         { "titulo": "Monster High - Skelita Calaveras", "marca": "Mattel", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09P9O9X6Z", "imagenAmazon": "https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg", "descripcion": "Edición especial del Día de los Muertos." },
-        { "titulo": "Barriguitas - El Chalet", "marca": "Famosa", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00466K9QE", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Casa clásica de dos pisos para las Barriguitas." }
+        { "titulo": "Barriguitas - El Chalet", "marca": "Famosa", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00466K9QE", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Casa clásica de dos pisos para las Barriguitas." }, 
       ]
      } 
     },
@@ -207,7 +207,7 @@
         { "titulo": "Monster Flex - Tritón", "marca": "Monsterflex", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B08G8Y5T6L", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Guerrero marino con escamas flexibles." },
         { "titulo": "Monster Flex - Demonio de Fuego", "marca": "Monsterflex", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BNM7P6R5", "imagenAmazon": "https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg", "descripcion": "Colores rojos y naranjas intensos, muy elástico." },
         { "titulo": "Monster Flex - Gargola", "marca": "Monsterflex", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BSG7N8H8", "imagenAmazon": "https://m.media-amazon.com/images/I/71e-R3S8s6L.jpg", "descripcion": "Alas flexibles que se estiran sin deformarse." },
-        { "titulo": "Monster Flex - Pirata Fantasma", "marca": "Monsterflex", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9N9X5W", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Sombrero y garfio integrados en la figura elástica." }
+        { "titulo": "Monster Flex - Pirata Fantasma", "marca": "Monsterflex", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9N9X5W", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Sombrero y garfio integrados en la figura elástica." }, 
       ]
     },
     "series_especiales_y_packs": {
@@ -232,7 +232,7 @@
         { "titulo": "Monster Flex - Skeleton Glow Edition", "marca": "Monsterflex", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00000IZQR", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Esqueleto que brilla intensamente tras cargarse con luz." },
         { "titulo": "Monster Flex - Cyber Monster", "marca": "Monsterflex", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9N9X6X", "imagenAmazon": "https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg", "descripcion": "Diseño futurista con cables y circuitos elásticos." },
         { "titulo": "Monster Flex - Shadow Stalker", "marca": "Monsterflex", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B07N1K2X5E", "imagenAmazon": "https://m.media-amazon.com/images/I/81-R3S8s6L.jpg", "descripcion": "Figura negra mate indetectable en la oscuridad." },
-        { "titulo": "Monster Flex - Fire & Ice Pack", "marca": "Monsterflex", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NA", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Set dual con los monstruos elementales opuestos." }
+        { "titulo": "Monster Flex - Fire & Ice Pack", "marca": "Monsterflex", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NA", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Set dual con los monstruos elementales opuestos." }, 
       ]
     },
     "goo_jit_zu_y_stretch": {
@@ -257,7 +257,7 @@
         { "titulo": "Goo Jit Zu King Hydra - 3 en 1", "marca": "Goo Jit Zu", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NB", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Figura gigante con tres cabezas y tres rellenos diferentes." },
         { "titulo": "Goo Jit Zu Marvel - Capitán América", "marca": "Goo Jit Zu", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07N1K2X5F", "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg", "descripcion": "Escudo flexible y cuerpo con estrellas elásticas." },
         { "titulo": "Goo Jit Zu - Bengal (Tigresa)", "marca": "Goo Jit Zu", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B00466K9QF", "imagenAmazon": "https://m.media-amazon.com/images/I/81-R3S8s6L.jpg", "descripcion": "Rellena de anillos elásticos, muy resistente." },
-        { "titulo": "Goo Jit Zu Star Wars - Darth Vader", "marca": "Goo Jit Zu", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BVB87689", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "El Lord Sith más elástico de la galaxia." }
+        { "titulo": "Goo Jit Zu Star Wars - Darth Vader", "marca": "Goo Jit Zu", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BVB87689", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "El Lord Sith más elástico de la galaxia." }, 
       ]
     },
     "mega_coleccion_elastica": {
@@ -312,7 +312,7 @@
         { "titulo": "Goo Jit Zu - Silverback (Gorila)", "marca": "Goo Jit Zu", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B00FZMBS72", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Relleno de calaveras crujientes muy resistente." },
         { "titulo": "Stretch - Flash Retro", "marca": "Stretch", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B01B1I9V4X", "imagenAmazon": "https://m.media-amazon.com/images/I/81-R3S8s6L.jpg", "descripcion": "El corredor más rápido en su versión Stretch de los 90." },
         { "titulo": "Goo Jit Zu DC - Cyborg", "marca": "Goo Jit Zu", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BSG7N8J4", "imagenAmazon": "https://m.media-amazon.com/images/I/71uV8W+HkYL.jpg", "descripcion": "Relleno de piezas metálicas y gel azul." },
-        { "titulo": "Stretch - Rey Star Wars", "marca": "Stretch Armstrong", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87695", "imagenAmazon": "https://m.media-amazon.com/images/I/71e-R3S8s6L.jpg", "descripcion": "La heroína Jedi en formato extra flexible." }
+        { "titulo": "Stretch - Rey Star Wars", "marca": "Stretch Armstrong", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87695", "imagenAmazon": "https://m.media-amazon.com/images/I/71e-R3S8s6L.jpg", "descripcion": "La heroína Jedi en formato extra flexible." }, 
       ]
      } 
     }, 
@@ -334,7 +334,7 @@
         { "titulo": "Puzzle 500 Piezas - Marvel Avengers", "marca": "Clementoni", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B08VWBK7N5", "imagenAmazon": "https://m.media-amazon.com/images/I/71e-R3S8s6L.jpg", "descripcion": "Imagen panorámica con todos los héroes clásicos." },
         { "titulo": "Puzzle Madera - Animales Coloridos", "marca": "Wentworth", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09BBPRVXZ", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Piezas cortadas con láser con formas de animales." },
         { "titulo": "Puzzle 1000 Piezas - Paisaje Dolomitas", "marca": "Trefl", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B00FZMBS73", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Colores vibrantes y encaje preciso." },
-        { "titulo": "Puzzle 3D Torre Eiffel con Luz", "marca": "CubicFun", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87696", "imagenAmazon": "https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg", "descripcion": "Maqueta de cartón pluma con base iluminada." }
+        { "titulo": "Puzzle 3D Torre Eiffel con Luz", "marca": "CubicFun", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87696", "imagenAmazon": "https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg", "descripcion": "Maqueta de cartón pluma con base iluminada." }, 
       ]
     },
     "coleccion_puzzles_premium": {
@@ -359,7 +359,7 @@
         { "titulo": "Puzzle 3D Game of Thrones - Desembarco del Rey", "marca": "4D Cityscape", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00S9Y4M7Y", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Maqueta de la ciudad con las casas nobles de Poniente." },
         { "titulo": "Puzzle 1000 Piezas - Londres bajo la Lluvia", "marca": "Falcon de luxe", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B000WTTYGJ", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Estilo de pintura clásica británica muy elegante." },
         { "titulo": "Puzzle 2000 Piezas - Capilla Sixtina", "marca": "Clementoni", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87700", "imagenAmazon": "https://m.media-amazon.com/images/I/91R+V3S8s6L.jpg", "descripcion": "Toda la obra de Miguel Ángel en alta resolución." },
-        { "titulo": "Puzzle Madera - Árbol de la Vida", "marca": "Unidragon", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NF", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Piezas circulares y formas de pájaros en madera." }
+        { "titulo": "Puzzle Madera - Árbol de la Vida", "marca": "Unidragon", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NF", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Piezas circulares y formas de pájaros en madera." }, 
       ]
     },
     "coleccion_puzzles_extendida": {
@@ -384,7 +384,7 @@
         { "titulo": "Puzzle 1000 Piezas - Especias del Mundo", "marca": "Educa", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B000WTTYGK", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Imagen colorida y muy entretenida de montar." },
         { "titulo": "Puzzle 3D Torre de Pisa", "marca": "CubicFun", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87703", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Maqueta estable con efecto de piedra real." },
         { "titulo": "Puzzle 1000 Piezas - Animales del Mundo", "marca": "Trefl", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0038W0PAX", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Educativo y visualmente impactante para toda la familia." },
-        { "titulo": "Puzzle 1000 Piezas - London Bus", "marca": "Clementoni Black & White", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NG", "imagenAmazon": "https://m.media-amazon.com/images/I/61z+V3S8s6L.jpg", "descripcion": "Efecto artístico: fondo en B/N y autobús en rojo brillante." }
+        { "titulo": "Puzzle 1000 Piezas - London Bus", "marca": "Clementoni Black & White", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NG", "imagenAmazon": "https://m.media-amazon.com/images/I/61z+V3S8s6L.jpg", "descripcion": "Efecto artístico: fondo en B/N y autobús en rojo brillante." }, 
       ]
      } 
     },
@@ -406,7 +406,7 @@
         { "titulo": "LEGO Marvel - Casco de Iron Man", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08G8Y5T6T", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Pieza de colección de 480 piezas con pegatinas de detalles." },
         { "titulo": "Marvel Legends - Scarlett Witch (Multiverse of Madness)", "marca": "Hasbro", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BSG9N6H1", "imagenAmazon": "https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg", "descripcion": "Figura de la Bruja Escarlata con efectos de magia roja." },
         { "titulo": "LEGO Marvel - Spider-Man en el Laboratorio de Sanctum", "marca": "LEGO", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87704", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Set con Spider-Man, Doctor Strange y MJ." },
-        { "titulo": "Marvel Legends - Deadpool & Bob Agent of Hydra", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NH", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Pack de dos figuras con múltiples armas y accesorios cómicos." }
+        { "titulo": "Marvel Legends - Deadpool & Bob Agent of Hydra", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NH", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Pack de dos figuras con múltiples armas y accesorios cómicos." }, 
       ]
     },
     "marvel_legends_y_avengers": {
@@ -431,7 +431,7 @@
         { "titulo": "Marvel Legends - Ghost Rider con Moto", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N2", "imagenAmazon": "https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg", "descripcion": "Edición 85 aniversario con llama translúcida en la moto." },
         { "titulo": "Marvel Legends - Punisher (War Machine Armor)", "marca": "Hasbro", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C3S7Y8N2", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Cruce épico entre Frank Castle y la armadura de Stark." },
         { "titulo": "LEGO Marvel - Final de Endgame", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08WPN9N1B", "imagenAmazon": "https://m.media-amazon.com/images/I/91R+V3S8s6L.jpg", "descripcion": "Set con el furgón de Ant-Man y el complejo de los Vengadores." },
-        { "titulo": "Marvel Legends - Groot (I am Groot)", "marca": "Hasbro", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BNM5P4R9", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Figura pequeña y articulada con accesorios de la serie de cortos." }
+        { "titulo": "Marvel Legends - Groot (I am Groot)", "marca": "Hasbro", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BNM5P4R9", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Figura pequeña y articulada con accesorios de la serie de cortos." }, 
       ]
     },
   "star_wars": {
@@ -452,7 +452,7 @@
         { "titulo": "Star Wars The Black Series - Clone Trooper", "marca": "Hasbro", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BSG7N8H3", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Soldado clon de la fase II con detalles de batalla." },
         { "titulo": "LEGO Star Wars - Caza Estelar Jedi de Obi-Wan", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87705", "imagenAmazon": "https://m.media-amazon.com/images/I/81z-R3S8s6L.jpg", "descripcion": "Incluye minifiguras de Obi-Wan Kenobi, Taun We y R4-P17." },
         { "titulo": "Star Wars - Casco Electrónico Captain Rex", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NJ", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Cambiador de voz y visor móvil con luz LED." },
-        { "titulo": "LEGO Star Wars - R2-D2 de Colección", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08WPN9N1C", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Modelo de 2314 piezas con periscopio y espada láser oculta." }
+        { "titulo": "LEGO Star Wars - R2-D2 de Colección", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08WPN9N1C", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Modelo de 2314 piezas con periscopio y espada láser oculta." }, 
       ]
     },
     "star_wars_expansion_galactica": {
@@ -477,7 +477,7 @@
         { "titulo": "Star Wars - Droide L0-LA59 (Lola) Animatrónico", "marca": "Hasbro", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B09BNM5P4T", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Paneles móviles, sonidos de la serie y luces en los ojos." },
         { "titulo": "LEGO Star Wars - Tanque de Combate de la República", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87707", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Incluye al Maestro Windu con su sable púrpura y Clones de la 187." },
         { "titulo": "Star Wars The Black Series - Hera Syndulla", "marca": "Hasbro", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NL", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Líder del Escuadrón Fénix con uniforme de vuelo detallado." },
-        { "titulo": "LEGO Star Wars - Diorama Vuelo sobre la Estrella de la Muerte", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09H1S5V8K", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Set de construcción para adultos con placa conmemorativa." }
+        { "titulo": "LEGO Star Wars - Diorama Vuelo sobre la Estrella de la Muerte", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09H1S5V8K", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Set de construcción para adultos con placa conmemorativa." }, 
       ]
     },
     "star_wars_naves_y_droides": {
@@ -502,7 +502,7 @@
         { "titulo": "LEGO Star Wars - Caza TIE Imperial", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08WPN9N1D", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Incluye piloto de TIE y Stormtrooper con droide de protocolo." },
         { "titulo": "Star Wars The Black Series - Wicket el Ewok", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BNM7P6R1", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Pequeña figura detallada con lanza, arco y flechas." },
         { "titulo": "Star Wars Vintage Collection - Nave de Boba Fett", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09BBPRVY2", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Vehículo Slave I a escala con soporte y acabados de lujo." },
-        { "titulo": "LEGO Star Wars - Diorama de Entrenamiento en Dagobah", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BVB87710", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Set para adultos que recrea la cabaña de Yoda sumergida." }
+        { "titulo": "LEGO Star Wars - Diorama de Entrenamiento en Dagobah", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BVB87710", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Set para adultos que recrea la cabaña de Yoda sumergida." }, 
       ]
     },
   "lego_princesas": {
@@ -528,7 +528,7 @@
         { "titulo": "LEGO Disney - Castillo de Aurora", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BNM5P4R0", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Set 4+ con tobogán, escalera y figuras de Maléfica y Aurora." },
         { "titulo": "LEGO Disney - Establo de Caballos Reales", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09BBPRVY3", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Incluye los caballos de Bella y Rapunzel con accesorios de cuidado." },
         { "titulo": "LEGO Disney - Palacio Submarino de Ariel", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09P9N9X6O", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Castillo bajo el mar con tobogán dorado y carroza de delfines." },
-        { "titulo": "LEGO Disney - Casa del Árbol Encantada", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N3", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Set con 13 minifiguras de princesas y guerreras Disney." }
+        { "titulo": "LEGO Disney - Casa del Árbol Encantada", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N3", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Set con 13 minifiguras de princesas y guerreras Disney." }, 
       ]
     },
     "lego_princesas_coleccion_completa": {
@@ -553,7 +553,7 @@
         { "titulo": "LEGO Disney - Aventura en el Bosque de Mérida", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00H499YTS", "imagenAmazon": "https://m.media-amazon.com/images/I/61z-V3S8s6L.jpg", "descripcion": "Set con diana de tiro con arco y los tres hermanos ositos." },
         { "titulo": "LEGO Disney - Trepador Galáctico de Stitch", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S8Y9NP", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Figura de Stitch construible con helado y flor." },
         { "titulo": "LEGO Disney - Castillo de Juegos de Anna y Olaf", "marca": "LEGO", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87716", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Set 4+ con tobogán de hielo y accesorios de merienda." },
-        { "titulo": "LEGO Disney - Joyero de Blancanieves", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N4", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Caja con espejo y pulsera para que los niños la decoren." }
+        { "titulo": "LEGO Disney - Joyero de Blancanieves", "marca": "LEGO", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N4", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Caja con espejo y pulsera para que los niños la decoren." }, 
       ]
      } 
     }
@@ -575,7 +575,7 @@
         { "titulo": "Sushi Go! - El Juego de Cartas", "marca": "Devir", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B009XF3T6N", "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg", "descripcion": "Estrategia rápida de draft de cartas con temática de sushi." },
         { "titulo": "Código Secreto - Juego de Espías", "marca": "Devir", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B015W7B1V6", "imagenAmazon": "https://m.media-amazon.com/images/I/71e-R3S8s6L.jpg", "descripcion": "Averigua dónde están tus agentes con una sola palabra." },
         { "titulo": "Trivial Pursuit Edición Clásica", "marca": "Hasbro Gaming", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B01H5B5U8G", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Pon a prueba tus conocimientos en 6 categorías diferentes." },
-        { "titulo": "Cluedo - El Juego de Misterio", "marca": "Hasbro Gaming", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B00H499YTS", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Descubre quién cometió el crimen, en qué habitación y con qué arma." }
+        { "titulo": "Cluedo - El Juego de Misterio", "marca": "Hasbro Gaming", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B00H499YTS", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Descubre quién cometió el crimen, en qué habitación y con qué arma." }, 
       ]
     },
     "juegos_party_y_estrategia_avanzada": {
@@ -600,7 +600,7 @@
         { "titulo": "Splendor - El Juego del Renacimiento", "marca": "Space Cowboys", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00G3S7Y8N", "imagenAmazon": "https://m.media-amazon.com/images/I/91R+V3S8s6L.jpg", "descripcion": "Gestiona gemas y prestigio para convertirte en el mercader más rico." },
         { "titulo": "Scattergories - El Juego de Categorías", "marca": "Hasbro Gaming", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00S9Y7J3I", "imagenAmazon": "https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg", "descripcion": "Escribe palabras que empiecen por la letra seleccionada rápidamente." },
         { "titulo": "Love Letter - Edición Bolsa de Tela", "marca": "Z-Man Games", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00BNM5P4V", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Deducción y riesgo para entregar tu carta a la Princesa." },
-        { "titulo": "Jenga - El Juego de la Torre", "marca": "Hasbro Gaming", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00005N5PF", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Habilidad y nervios de acero para que no se caiga la torre." }
+        { "titulo": "Jenga - El Juego de la Torre", "marca": "Hasbro Gaming", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00005N5PF", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Habilidad y nervios de acero para que no se caiga la torre." }, 
       ]
      } 
     },
@@ -622,7 +622,7 @@
         { "titulo": "Disfraz de Jedi (Star Wars)", "marca": "Rubies", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B000809OAP", "imagenAmazon": "https://m.media-amazon.com/images/I/91TIdyV9SFL.jpg", "descripcion": "Túnica con cinturón y pantalón con cubrebotas. No incluye sable." },
         { "titulo": "Disfraz de Darth Vader con Máscara 3D", "marca": "Rubies", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00005N5PG", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Capa negra, panel de pecho detallado y máscara de plástico rígido." },
         { "titulo": "Disfraz de Bella (La Bella y la Bestia)", "marca": "Disney", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00H499YTU", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Vestido de gala amarillo satinado con detalles de rosas y purpurina." },
-        { "titulo": "Set de Capas de Superhéroes para Niños", "marca": "Joyin", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07LGR5X9H", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Pack de 4 capas y máscaras de diferentes colores para juego creativo." }
+        { "titulo": "Set de Capas de Superhéroes para Niños", "marca": "Joyin", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07LGR5X9H", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Pack de 4 capas y máscaras de diferentes colores para juego creativo." }, 
       ]
     },
     "disfraces_profesiones_y_animales": {
@@ -647,7 +647,7 @@
         { "titulo": "Disfraz de Moana (Vaiana) con Collar", "marca": "Disney", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BBRYDWKP", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Top y falda con estampados tribales y el collar 'Corazón de Te Fiti'." },
         { "titulo": "Disfraz de Hulk con Máscara Verde", "marca": "Marvel", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B08G8Y5T6X", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Musculatura acolchada muy resistente y máscara ajustable." },
         { "titulo": "Disfraz de Jasmine (Aladdin)", "marca": "Disney", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BNM7P6R4", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Pantalón bombacho turquesa y top con detalles de gasa y joyas." },
-        { "titulo": "Kit de Explorador de la Selva", "marca": "Joyin", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08VWBK7N8", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Chaleco de safari, sombrero, prismáticos y lupa funcional." }
+        { "titulo": "Kit de Explorador de la Selva", "marca": "Joyin", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08VWBK7N8", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Chaleco de safari, sombrero, prismáticos y lupa funcional." }, 
       ]
      } 
     },
@@ -669,7 +669,7 @@
         { "titulo": "Patinete Plegable de Ruedas Grandes", "marca": "Hudora", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B000809OAR", "imagenAmazon": "https://m.media-amazon.com/images/I/91TIdyV9SFL.jpg", "descripcion": "Ruedas de 205mm para mayor velocidad y comodidad en asfalto urbano." },
         { "titulo": "Hoverboard con Bluetooth y Luces LED", "marca": "GeekMe", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87721", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Altavoces integrados, motores potentes y certificación de seguridad UL." },
         { "titulo": "Rodilleras de Alta Resistencia para Skate", "marca": "Triple Eight", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00005N5PI", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Espuma de alta densidad y tapas planas para mayor estabilidad en caídas." },
-        { "titulo": "Monopatín Skateboard Completo", "marca": "Enuff", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07LGR5X9J", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Tabla de 7 láminas de arce canadiense con ejes de aluminio pulido." }
+        { "titulo": "Monopatín Skateboard Completo", "marca": "Enuff", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07LGR5X9J", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Tabla de 7 láminas de arce canadiense con ejes de aluminio pulido." }, 
       ]
     },
     "movilidad_avanzada_y_skate": {
@@ -694,7 +694,7 @@
         { "titulo": "Ruedas LED de Repuesto para Patines", "marca": "Luminous", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BNM7P6R6", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Se iluminan al girar mediante inducción magnética, sin pilas." },
         { "titulo": "Herramienta T-Tool Universal para Skate", "marca": "Silver", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08VWBK7N9", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Todo lo necesario para ajustar ejes, ruedas y tornillería en un solo accesorio." },
         { "titulo": "Patinete Eléctrico para Niños (Max 15km/h)", "marca": "Razor Power Core E90", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B09H1S5V8N", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Hasta 80 minutos de autonomía, seguro y fácil de manejar para peques." },
-        { "titulo": "Protector de Cubierta (Deck) para Patinete", "marca": "Ninebot", "rating": 4.5, "amazon": "https://www.amazon.es/dp/B0BVB87724", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Goma antideslizante de alta calidad para renovar el grip de tu scooter." }
+        { "titulo": "Protector de Cubierta (Deck) para Patinete", "marca": "Ninebot", "rating": 4.5, "amazon": "https://www.amazon.es/dp/B0BVB87724", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Goma antideslizante de alta calidad para renovar el grip de tu scooter." }, 
       ]
      } 
     }
@@ -716,7 +716,7 @@
         { "titulo": "Mesa de Agua y Arena con Accesorios", "marca": "Step2", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BVB87725", "imagenAmazon": "https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg", "descripcion": "Doble compartimento con sombrilla incluida para proteger del sol." },
         { "titulo": "Parque Infantil de Madera con Torre", "marca": "Wickey", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00BNM5P4Z", "imagenAmazon": "https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg", "descripcion": "Incluye tobogán, columpio doble, muro de escalada y arenero." },
         { "titulo": "Coche Eléctrico Todoterreno 12V", "marca": "Ford Ranger Kids", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B01H5B5U8N", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "Mando parental, luces LED, música y apertura de puertas reales." },
-        { "titulo": "Telescopio para Niños con Trípode", "marca": "Elysia", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N7", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Iniciación a la astronomía en el jardín con aumentos ajustables." }
+        { "titulo": "Telescopio para Niños con Trípode", "marca": "Elysia", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N7", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Iniciación a la astronomía en el jardín con aumentos ajustables." }, 
       ]
     },
     "exterior_aventura_y_verano": {
@@ -741,7 +741,7 @@
         { "titulo": "Carretilla de Metal para Niños", "marca": "Rolly Toys", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BNM7P6R7", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Carretilla real a escala infantil, ideal para jugar a la jardinería." },
         { "titulo": "Barca Hinchable Explorer con Remos", "marca": "Intex", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B08VWBK7NA", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Capacidad para dos personas, con válvulas de inflado rápido." },
         { "titulo": "Set de Bolos de Madera para Césped", "marca": "Tradition", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09H1S5V8O", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Bolos clásicos gigantes con bolsa de red para transporte." },
-        { "titulo": "Lona de Salto de Repuesto para Camas Elásticas", "marca": "Upper Bounce", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87727", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Material de alta resistencia con protección UV y costuras reforzadas." }
+        { "titulo": "Lona de Salto de Repuesto para Camas Elásticas", "marca": "Upper Bounce", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87727", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Material de alta resistencia con protección UV y costuras reforzadas." }, 
       ]
      } 
     },
@@ -763,7 +763,7 @@
         { "titulo": "Tarjeta de Expansión de Almacenamiento Xbox", "marca": "Seagate", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08K3S6WJM", "imagenAmazon": "https://m.media-amazon.com/images/I/91TIdyV9SFL.jpg", "descripcion": "Añade 1TB de almacenamiento sin perder el rendimiento de la arquitectura Velocity." },
         { "titulo": "Volante Logitech G29 Driving Force", "marca": "Logitech", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B013Y78X60", "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg", "descripcion": "Simulación de conducción premium con Force Feedback y pedales de acero." },
         { "titulo": "Funda de Transporte Nintendo Switch", "marca": "Orzly", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B01NAUKS62", "imagenAmazon": "https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg", "descripcion": "Carcasa rígida con espacio para cartuchos y accesorios pequeños." },
-        { "titulo": "PlayStation VR2 (PS5)", "marca": "Sony", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BRL8XF9J", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Realidad virtual de nueva generación con seguimiento ocular y audio 3D." }
+        { "titulo": "PlayStation VR2 (PS5)", "marca": "Sony", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BRL8XF9J", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Realidad virtual de nueva generación con seguimiento ocular y audio 3D." }, 
       ]
     },
     "perifericos_gaming_y_retro": {
@@ -788,7 +788,7 @@
         { "titulo": "Evercade EXP - Consola de Cartuchos Retro", "marca": "Blaze Entertainment", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87730", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Juega a colecciones clásicas con licencia oficial en cartuchos físicos." },
         { "titulo": "Soporte para Auriculares RGB", "marca": "New Bee", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B08VWBK7NB", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Organiza tu setup con iluminación LED y puertos USB de carga." },
         { "titulo": "Controlador Arcade Stick para Fighting Games", "marca": "8BitDo", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08G9987KH", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Compatible con Switch y PC, con botones mapeables y diseño retro." },
-        { "titulo": "Monitor Gaming Portátil 15.6'' 144Hz", "marca": "Arzopa", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C3S7Y8NB", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Ideal para llevar tu PS5 o Switch de viaje con resolución Full HD." }
+        { "titulo": "Monitor Gaming Portátil 15.6'' 144Hz", "marca": "Arzopa", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0C3S7Y8NB", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Ideal para llevar tu PS5 o Switch de viaje con resolución Full HD." }, 
       ]
     }, 
     "accesorios_tecnicos_y_confort_gaming": {
@@ -813,7 +813,7 @@
         { "titulo": "Soporte para Mando y Auriculares (Cable Guy)", "marca": "Exquisite Gaming", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87733", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Figura detallada de personajes (Spider-Man, Darth Vader) que sujeta tu mando." },
         { "titulo": "Teclado para Chat de Mando Xbox", "marca": "Dobe", "rating": 4.4, "amazon": "https://www.amazon.es/dp/B08VWBK7NC", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Teclado QWERTY completo que se acopla directamente al mando." },
         { "titulo": "Kit de Limpieza para Consolas y Mandos", "marca": "Ordtop", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B09H1S5V8P", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Cepillos antiestáticos y aire comprimido para mantener el hardware impecable." },
-        { "titulo": "Proyector Gaming 4K de Baja Latencia", "marca": "BenQ TK700STi", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87734", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Juega a 120 pulgadas con solo 16ms de retraso de entrada." }
+        { "titulo": "Proyector Gaming 4K de Baja Latencia", "marca": "BenQ TK700STi", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0BVB87734", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Juega a 120 pulgadas con solo 16ms de retraso de entrada." }, 
       ]
     }
   }, 
@@ -835,7 +835,7 @@
         { "titulo": "Animal Crossing: New Horizons", "marca": "Nintendo", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B07SN66R8X", "imagenAmazon": "https://m.media-amazon.com/images/I/71yYmG-3FkL.jpg", "descripcion": "Crea tu propio paraíso en una isla desierta y decóralo a tu gusto." },
         { "titulo": "Starfield (Xbox Series X)", "marca": "Bethesda", "rating": 4.5, "amazon": "https://www.amazon.es/dp/B0BVB87739", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Un RPG de nueva generación ambientado entre las estrellas." },
         { "titulo": "Ratchet & Clank: Una Dimensión Aparte", "marca": "Sony Interactive", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08WDM8L1B", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Aventura interdimensional que aprovecha al máximo el SSD de PS5." },
-        { "titulo": "Pokémon Escarlata / Púrpura", "marca": "Nintendo", "rating": 4.4, "amazon": "https://www.amazon.es/dp/B09VVB87740", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "La primera aventura Pokémon de mundo abierto en la región de Paldea." }
+        { "titulo": "Pokémon Escarlata / Púrpura", "marca": "Nintendo", "rating": 4.4, "amazon": "https://www.amazon.es/dp/B09VVB87740", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "La primera aventura Pokémon de mundo abierto en la región de Paldea." }, 
       ]
     },
     "videojuegos_exitos_y_novedades": {
@@ -860,7 +860,7 @@
         { "titulo": "Bluey: El Videojuego", "marca": "Outright Games", "rating": 4.5, "amazon": "https://www.amazon.es/dp/B0C7S7Y8N3", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Acompaña a Bluey y su familia en una aventura interactiva para los más peques." },
         { "titulo": "Tekken 8 (PS5/Xbox)", "marca": "Bandai Namco", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C3S7Y8NC", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "El nuevo capítulo de la saga de lucha con un sistema de combate agresivo." },
         { "titulo": "Pikmin 4 (Switch)", "marca": "Nintendo", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0C9R3O4WXN", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Estrategia y rescate en un planeta extraño con la ayuda de los Pikmin y Ochin." },
-        { "titulo": "Avatar: Frontiers of Pandora", "marca": "Ubisoft", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87744", "imagenAmazon": "https://m.media-amazon.com/images/I/71u-R3S8s6L.jpg", "descripcion": "Explora la frontera occidental de Pandora en este juego de acción en primera persona." }
+        { "titulo": "Avatar: Frontiers of Pandora", "marca": "Ubisoft", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87744", "imagenAmazon": "https://m.media-amazon.com/images/I/71u-R3S8s6L.jpg", "descripcion": "Explora la frontera occidental de Pandora en este juego de acción en primera persona." }, 
       ]
     },
     "videojuegos_coleccion_y_familia": {
@@ -885,7 +885,7 @@
         { "titulo": "F1 24 (Standard Edition)", "marca": "EA Sports", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0DVB87752", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "El videojuego oficial del Campeonato del Mundo de Fórmula 1." },
         { "titulo": "Just Dance 2025 Edition", "marca": "Ubisoft", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B0DVB87753", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Baila con los últimos éxitos musicales en esta edición anual renovada." },
         { "titulo": "Sackboy: Una Aventura a lo Grande (PS5)", "marca": "Sony Interactive", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08H99BPJQ", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Plataformas cooperativo encantador con un diseño artístico brutal." },
-        { "titulo": "Monster Hunter Wilds (Preventa)", "marca": "Capcom", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0DVB87754", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Caza monstruos colosales en entornos dinámicos de nueva generación." }
+        { "titulo": "Monster Hunter Wilds (Preventa)", "marca": "Capcom", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0DVB87754", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Caza monstruos colosales en entornos dinámicos de nueva generación." }, 
       ]
      } 
     }, 
@@ -907,7 +907,7 @@
         { "titulo": "Kit de Terrario Iluminado para Niños", "marca": "Dan&Darci", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B07LGR5X9L", "imagenAmazon": "https://m.media-amazon.com/images/I/71R2o5-4YBL.jpg", "descripcion": "Crea tu propio ecosistema que brilla por la noche con luz LED." },
         { "titulo": "Peluches Reversibles de Pulpo (Original)", "marca": "TeeTurtle", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B07H499YTY", "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg", "descripcion": "Muestra tu estado de ánimo con estos icónicos peluches de dos colores." },
         { "titulo": "Coche de Control Remoto Anfibio", "marca": "Lexibook", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B09P9S9X1Z", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Gira 360 grados y corre tanto por tierra como por agua." },
-        { "titulo": "Máquina de Pegatinas Personalizadas", "marca": "Stationery Team", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87758", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Convierte cualquier dibujo o foto en una pegatina brillante."} 
+        { "titulo": "Máquina de Pegatinas Personalizadas", "marca": "Stationery Team", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87758", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Convierte cualquier dibujo o foto en una pegatina brillante."}, 
       ] 
   }, 
     "tendencias_virales_y_educacion_stem": {
@@ -932,7 +932,7 @@
         { "titulo": "Caja de Experimentos de Energía Solar 14-en-1", "marca": "OMWay", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87770", "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg", "descripcion": "Robots educativos que funcionan 100% con luz solar." },
         { "titulo": "Set de Magia 'Borrás' 150 Trucos", "marca": "Educa", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B00BNM5P5C", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Un clásico renovado con tutoriales en vídeo para aprender los mejores trucos." },
         { "titulo": "Estudio de Tatuajes Temporales", "marca": "Clementoni Crazy Chic", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0DVB87771", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Aerógrafo manual y plantillas para crear body art seguro y lavable." },
-        { "titulo": "Microscopio de Bolsillo 60x-120x", "marca": "Carson MicroBrite", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00LAX52IQ", "imagenAmazon": "https://m.media-amazon.com/images/I/51Q2R3O4WXL.jpg", "descripcion": "Potente, ligero y con luz LED, ideal para excursiones al campo." }
+        { "titulo": "Microscopio de Bolsillo 60x-120x", "marca": "Carson MicroBrite", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B00LAX52IQ", "imagenAmazon": "https://m.media-amazon.com/images/I/51Q2R3O4WXL.jpg", "descripcion": "Potente, ligero y con luz LED, ideal para excursiones al campo." }, 
      
       ] 
 }, 
@@ -958,7 +958,7 @@
         { "titulo": "Reloj Inteligente Infantil con Cámara", "marca": "VTech Kidizoom DX2", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B071XmC-H-tFL", "imagenAmazon": "https://m.media-amazon.com/images/I/71v2R3O4WXL.jpg", "descripcion": "Fotos, vídeos, grabadora de voz y juegos de realidad aumentada en la muñeca." },
         { "titulo": "Tipi de Lectura con Guirnalda de Luces", "marca": "Ababy", "rating": 4.7, "amazon": "https://www.amazon.es/dp/B0BVB87779", "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg", "descripcion": "Refugio acogedor de tela de algodón para fomentar el hábito de lectura." },
         { "titulo": "Puzzle 3D Castillo de Harry Potter", "marca": "CubicFun", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B09H1S5V8T", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Réplica detallada de Hogwarts en cartón pluma rígido, sin pegamento." },
-        { "titulo": "Estación Meteorológica para Niños", "marca": "4M Green Science", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87780", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Mide el viento, la lluvia y crea un efecto invernadero en una botella." }
+        { "titulo": "Estación Meteorológica para Niños", "marca": "4M Green Science", "rating": 4.6, "amazon": "https://www.amazon.es/dp/B0BVB87780", "imagenAmazon": "https://m.media-amazon.com/images/I/81u-R3S8s6L.jpg", "descripcion": "Mide el viento, la lluvia y crea un efecto invernadero en una botella." }, 
       ]
     }
     
