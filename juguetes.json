@@ -3,7 +3,7 @@
     "material_madera": {
       "titulo": "Material Montessori de Madera",
       "items": [
-        { "titulo": "Arcoíris Madera 12 piezas XL", "marca": "Grimm Style", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B004567890", "imagenAmazon": "https://m.media-amazon.com/images/I/61mO6O2L.jpg", "descripcion": "Clásico para construcción libre y equilibrio." },
+        { "titulo": "Arcoíris Madera 12 piezas XL", "marca": "Grimm Style", "rating": 4.9, "amazon":https://www.amazon.es/dp/3BVZRJAG3N3B7, "imagenAmazon": https://m.media-amazon.com/images/I/71iVsGQ2vML._AC_UL480_FMwebp_QL65_.jpg, "descripcion": "Clásico para construcción libre y equilibrio." },
         { "titulo": "Caja de Permanencia Pro", "marca": "Montessori Lab", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08G8Y5T6L", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Desarrolla la comprensión de la permanencia de objetos." },
         { "titulo": "Arcoíris Madera 12 piezas XL", "marca": "Grimm Style", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B004567890", "imagenAmazon": "https://m.media-amazon.com/images/I/61mO6O2L.jpg", "descripcion": "Clásico para construcción libre y equilibrio." },
         { "titulo": "Caja de Permanencia Pro", "marca": "Montessori Lab", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08G8Y5T6L", "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg", "descripcion": "Desarrolla la comprensión de la permanencia de objetos." },
