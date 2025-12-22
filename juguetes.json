@@ -3,180 +3,21 @@
     "material_madera": {
       "titulo": "Material Montessori de Madera",
       "items": [
-     {
-  "montessori": {
-    "B085XNC6S9": {
-      "titulo": "Caja de permanencia Montessori con bandeja",
-      "marca": "Nene Toys",
-      "rating": 4.7,
-      "amazon": "https://www.amazon.es/dp/B085XNC6S9",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/71YyO1U9X0L.jpg",
-      "descripcion": "Juguete de madera para el desarrollo de la coordinación ojo-mano y permanencia de objetos."
-    },
-    "B09B7S7ZRR": {
-      "titulo": "Torre Rosa Montessori de madera",
-      "marca": "Nienhuis / Generic",
-      "rating": 4.8,
-      "amazon": "https://www.amazon.es/dp/B09B7S7ZRR",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/51v8XWv6+ML.jpg",
-      "descripcion": "10 cubos de madera rosa para trabajar dimensiones y ordenación."
-    },
-    "B07H8GQZ7R": {
-      "titulo": "Juego de Pesca Magnética de Madera",
-      "marca": "Top Bright",
-      "rating": 4.8,
-      "amazon": "https://www.amazon.es/dp/B07H8GQZ7R",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/81pYVnI8dOL.jpg",
-      "descripcion": "Material para motricidad fina y reconocimiento de números y colores."
-    },
-    "B00004Y688": {
-      "titulo": "Tablero de Cerraduras Sensorial",
-      "marca": "Melissa & Doug",
-      "rating": 4.7,
-      "amazon": "https://www.amazon.es/dp/B00004Y688",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/91M-R7S8s6L.jpg",
-      "descripcion": "Tablero de madera con cierres y pestillos para habilidad manual."
-    },
-    "B086V2M7C4": {
-      "titulo": "Triángulo de Escalada Plegable",
-      "marca": "MamaToyz",
-      "rating": 4.9,
-      "amazon": "https://www.amazon.es/dp/B086V2M7C4",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg",
-      "descripcion": "Estructura de madera para el desarrollo del movimiento libre (estilo Pikler)."
-    },
-    "B08G8Y5T6L": {
-      "titulo": "Tablero de Clasificación y Apilado",
-      "marca": "Oyoy",
-      "rating": 4.6,
-      "amazon": "https://www.amazon.es/dp/B08G8Y5T6L",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/61-z0MvGkOL.jpg",
-      "descripcion": "Figuras geométricas de madera para encajar y clasificar."
-    },
-    "B07G3Z9V3Y": {
-      "titulo": "Cilindros de Sonido",
-      "marca": "Small Foot",
-      "rating": 4.5,
-      "amazon": "https://www.amazon.es/dp/B07G3Z9V3Y",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/61z+V3S8s6L.jpg",
-      "descripcion": "Material sensorial para el desarrollo de la percepción auditiva."
-    },
-    "B000NIDV12": {
-      "titulo": "Calendario y Reloj Educativo",
-      "marca": "Goula",
-      "rating": 4.7,
-      "amazon": "https://www.amazon.es/dp/B000NIDV12",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/81q2R3O4WXL.jpg",
-      "descripcion": "Panel de madera para aprender horas, días, meses y estaciones."
-    },
-    "B08V8ML8KB": {
-      "titulo": "Tablero de Multiplicación y Suma",
-      "marca": "STOBOK",
-      "rating": 4.5,
-      "amazon": "https://www.amazon.es/dp/B08V8ML8KB",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/71R1k-E7Z8L.jpg",
-      "descripcion": "Herramienta matemática de madera para aprender operaciones básicas de forma visual."
-    },
-    "B00S9XUIRE": {
-      "titulo": "Letras de Lija - Alfabeto Castellano",
-      "marca": "Akros",
-      "rating": 4.9,
-      "amazon": "https://www.amazon.es/dp/B00S9XUIRE",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/71+mN7H4pLL.jpg",
-      "descripcion": "Tarjetas táctiles para el reconocimiento de grafías y preparación para la escritura."
-    },
-    "B07B659F67": {
-      "titulo": "Caja de Husos con 45 Husos",
-      "marca": "Sharplace",
-      "rating": 4.6,
-      "amazon": "https://www.amazon.es/dp/B07B659F67",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/61y-V3S8s6L.jpg",
-      "descripcion": "Material para asociar la cantidad con el símbolo numérico del 0 al 9."
-    },
-    "B07P6Z1M64": {
-      "titulo": "Set de 4 Bloques de Cilindros con Botón",
-      "marca": "Bebé Montessori",
-      "rating": 4.7,
-      "amazon": "https://www.amazon.es/dp/B07P6Z1M64",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/61N6K1S7-hL.jpg",
-      "descripcion": "Desarrolla la discriminación visual de dimensiones y la pinza digital."
-    },
-    "B07L6RYN8R": {
-      "titulo": "Cerraduras de Madera Montessori",
-      "marca": "Small Foot",
-      "rating": 4.8,
-      "amazon": "https://www.amazon.es/dp/B07L6RYN8R",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/71-E+YvI35L.jpg",
-      "descripcion": "Caja con distintos tipos de cerrojos para practicar la vida práctica y coordinación."
-    },
-    "B07N1K2X5B": {
-      "titulo": "Alfabeto Móvil de Madera",
-      "marca": "LBLA",
-      "rating": 4.6,
-      "amazon": "https://www.amazon.es/dp/B07N1K2X5B",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/81b2P4O7WXL.jpg",
-      "descripcion": "Letras en azul y rojo para la formación de palabras y lectoescritura."
-    },
-    "B07W5S5K7Y": {
-      "titulo": "Sólidos Geométricos Azules (Set 10)",
-      "marca": "Cosmic Kids",
-      "rating": 4.8,
-      "amazon": "https://www.amazon.es/dp/B07W5S5K7Y",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/51wX1S.jpg",
-      "descripcion": "Introducción a la geometría mediante la exploración táctil de cuerpos geométricos."
-    },
-    "B00466K9QC": {
-      "titulo": "Balanza de Madera con Pesas",
-      "marca": "Goula",
-      "rating": 4.5,
-      "amazon": "https://www.amazon.es/dp/B00466K9QC",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/61N+V3S8s6L.jpg",
-      "descripcion": "Material para experimentar con el concepto de peso, equilibrio y medida."
-    },
-    "B0006PKZ1I": {
-      "titulo": "Bastidores de Vestir (Set 6 piezas)",
-      "marca": "Tandem",
-      "rating": 4.4,
-      "amazon": "https://www.amazon.es/dp/B0006PKZ1I",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/81kO7t+EACL.jpg",
-      "descripcion": "Práctica de autonomía personal: botones, cremalleras, lazos y corchetes."
-    },
-    "B00000IZQP": {
-      "titulo": "Geoplano de Madera con Gomas",
-      "marca": "Melissa & Doug",
-      "rating": 4.8,
-      "amazon": "https://www.amazon.es/dp/B00000IZQP",
-      "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg",
-      "descripcion": "Tablero de clavijas para crear formas geométricas y entender perímetros."
+        { "titulo":"Material Montessori 1 año",
+          "marca" : "Montessori",
+          "rating": 4.9,
+          "amazon":"https://www.amazon.es/s?k=montessori+1+a%C3%B1o&crid=4UJDZOV5BWE8&sprefix=montessori%2Caps%2C255&ref=nb_sb_ss_mvt-t11-ranker_1_10"
+           "imagenAmazon":"https://m.media-amazon.com/images/I/61NVgqSWApL._AC_UL640_FMwebp_QL65_.jpg"
+          "descripcion": "Juguetes Montessori 1 Año"
+    }
+          { "titulo":"Material Montessori 2 año",
+          "marca" : "Montessori",
+          "rating": 4.9,
+          "amazon":"https://www.amazon.es/s?k=montessori+2+a%C3%B1os&crid=1FNDFRKS3Z08D&sprefix=mpntesso%2Caps%2C249&ref=nb_sb_ss_mvt-t11-ranker_4_8"
+           "imagenAmazon":"https://m.media-amazon.com/images/I/81My+PFhI7L._AC_UL640_FMwebp_QL65_.jpg"
+          "descripcion": "Juguetes Montessori 2 Año"
+          }
+      ]
     }
   }
 }
-
-       ]
-    }
-  },
-  "munecas": {
-    "grandes_marcas": {
-      "titulo": "Muñecas y Accesorios 2025",
-      "items": [
-         { "titulo": "Barbie Dreamhouse 2025 con Ascensor",
-          "marca": "Mattel", 
-          "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0CLT5S363", 
-          "imagenAmazon": "https://m.media-amazon.com/images/I/81R+V3S8s6L.jpg", 
-          "descripcion": "La mansión definitiva con luces y sonidos."
-        },
-         { "titulo": "Nancy Un Día haciendo Surf", 
-          "marca": "Famosa", "rating": 4.8, 
-          "amazon": "https://www.amazon.es/dp/B08VWBK7N6", 
-          "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", 
-          "descripcion": "Incluye tabla de surf y look californiano." 
-        },
-         { "titulo": "Barbie Dreamtopia Malibú Sirena Luces Mágicas de Colores Muñeca Rubia, Juguete para el Agua",
-          "marca": "Mattel", 
-          "rating": 4, 
-          "amazon": "https://www.amazon.es/dp/B09BW2RTN8", 
-          "imagenAmazon": "https://m.media-amazon.com/images/I/61HG7WxbuKL._AC_SX679_.jpg",
-       ]
-    }
-  },
-
