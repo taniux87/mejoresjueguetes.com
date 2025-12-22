@@ -173,58 +173,10 @@
         },
          { "titulo": "Barbie Dreamtopia Malibú Sirena Luces Mágicas de Colores Muñeca Rubia, Juguete para el Agua",
           "marca": "Mattel", 
-          "rating": 4., "amazon": "https://www.amazon.es/dp/B09BW2RTN8", 
+          "rating": 4., 
+          "amazon": "https://www.amazon.es/dp/B09BW2RTN8", 
           "imagenAmazon": "https://m.media-amazon.com/images/I/61HG7WxbuKL._AC_SX679_.jpg",
-          "descripcion": "La mansión definitiva con luces y sonidos."
-      ]
-    }
-  },
-  "monsterflex": {
-    "figuras_estirables": {
-      "titulo": "Monster Flex: Figuras Ultra Elásticas",
-      "items": [
-        { "titulo": "Monster Flex - Sharkman (Tiburón)", "marca": "Monsterflex", "rating": 4.8, "amazon": "https://www.amazon.es/dp/B08M9JXYZZ", "imagenAmazon": "https://m.media-amazon.com/images/I/61z-V3S8s6L.jpg", "descripcion": "Figura de tiburón humanoide ultra estirable." }
-      ]
-    }
-  },
-  "puzzles": {
-    "puzzles_3d_y_coleccionismo": {
-      "titulo": "Puzzles 3D y Maquetas",
-      "items": [
-        { "titulo": "Puzzle 3D Castillo de Hogwarts", "marca": "Ravensburger", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B07B7TDRB6", "imagenAmazon": "https://m.media-amazon.com/images/I/91u-R3S8s6L.jpg", "descripcion": "540 piezas de plástico numeradas." }
-      ]
-    }
-  },
-  "marvel": {
-    "figuras_y_coleccionismo": {
-      "titulo": "Universo Cinematográfico Marvel",
-      "items": [
-        { "titulo": "Marvel Legends - Iron Man Mark 85", "marca": "Hasbro", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B083P9S5W1", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Figura premium de 15cm." }
-      ]
-    }
-  },
-  "star_wars": {
-    "coleccion_galactica": {
-      "titulo": "Star Wars: LEGO y Black Series",
-      "items": [
-        { "titulo": "LEGO Star Wars - Casco Darth Vader", "marca": "LEGO", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B08WWZG9N8", "imagenAmazon": "https://m.media-amazon.com/images/I/81R+V3S8s6L.jpg", "descripcion": "Modelo de exposición detallado." }
-      ]
-    }
-  },
-  "juegos_de_mesa": {
-    "estrategia_y_familiares": {
-      "titulo": "Juegos de Mesa",
-      "items": [
-        { "titulo": "Catan", "marca": "Devir", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0068Y9T80", "imagenAmazon": "https://m.media-amazon.com/images/I/81S2o5-4YBL.jpg", "descripcion": "Clásico de gestión de recursos." }
-      ]
-    }
-  },
-  "juguetes_general_y_tendencias": {
-    "moda_ciencia_y_creatividad": {
-      "titulo": "Tendencias 2025",
-      "items": [
-        { "titulo": "Bitzee", "marca": "Spin Master", "rating": 4.9, "amazon": "https://www.amazon.es/dp/B0BVB87755", "imagenAmazon": "https://m.media-amazon.com/images/I/81x-R3S8s6L.jpg", "descripcion": "Mascota digital 3D." }
-      ]
+        ]
     }
   }
 }
