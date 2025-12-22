@@ -5,13 +5,20 @@
   <title>MejoresJuguetes.com – Juguetes recomendados 2025, novedades, rankings y consejos para padres</title>
   <meta name="description" content="Descubre los mejores juguetes del momento. Rankings, reseñas, novedades y consejos prácticos para padres. Tu guía de juguetes en MejoresJuguetes.com.">
   <link rel="stylesheet" href="css/estilos.css">
+  
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1152236234412271" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <h1>Los mejores juguetes del momento: rankings, reseñas y consejos para padres</h1>
-  <p>En MejoresJuguetes.com reunimos los juguetes más recomendados del momento para ayudarte a elegir lo mejor para tus hijos. Aquí encontrarás rankings, reseñas, novedades y consejos de crianza para acompañarte en cada etapa del desarrollo infantil.</p>
+  <header class="seo-top-banner" style="background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); padding: 40px 0; text-align: center; border-bottom: 1px solid #eee;">
+    <div class="container">
+      <div class="seo-glass-card" style="background: rgba(255, 255, 255, 0.8); padding: 30px; border-radius: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.05); max-width: 900px; margin: 0 auto;">
+        <h1 style="color: #0A3D62; font-size: 2.2rem; margin-bottom: 15px;">Los mejores juguetes del momento: rankings, reseñas y consejos para padres</h1>
+        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">En <strong>MejoresJuguetes.com</strong> seleccionamos los juguetes más recomendados para ayudarte a elegir lo mejor para tus hijos. Aquí encontrarás rankings, reseñas, novedades y consejos de crianza para acompañarte en cada etapa del desarrollo infantil.</p>
+      </div>
+    </div>
+  </header>
 
   <header class="header">
     <div class="container header-flex">
@@ -53,14 +60,13 @@
     </section>
 
     <section class="bloque-seo">
-     <h2>Explora nuestros rankings de juguetes</h2>
+      <h2>Explora nuestros rankings de juguetes</h2>
       <p>Accede directamente a nuestras listas actualizadas según el tipo de juguete y las tendencias de 2025.</p>
-      <ul>
-        <div class="botones-seo" style="display: flex; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
-     <a href="rankings.html" class="pag-btn btn-verde">Página 1: Consolas y accesorios</a>
-    <a href="rankings.html" class="pag-btn btn-rosa">Página 2: Muñecas y Accesorios</a>
-    <a href="rankings.html" class="pag-btn btn-amarillo">Página 3: Tendencias y TOP</a>
-</div>
+      <div class="botones-seo" style="display: flex; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+        <a href="rankings.html" class="pag-btn btn-verde">Página 1: Consolas y accesorios</a>
+        <a href="rankings.html" class="pag-btn btn-rosa">Página 2: Muñecas y Accesorios</a>
+        <a href="rankings.html" class="pag-btn btn-amarillo">Página 3: Tendencias y TOP</a>
+      </div>
     </section>
 
     <section class="bloque-seo">
@@ -187,9 +193,7 @@
            data-ad-client="ca-pub-1152236234412271"
            data-ad-slot="4412052482"></ins>
     </div>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
   </main>
 
@@ -270,7 +274,7 @@
     async function cargarNovedades() {
       const libros = await buscarLibros("mejores libros crianza positiva padres", 4);
       const cont = document.getElementById("novedades");
-      cont.innerHTML = ""; 
+      cont.innerHTML = ""; 
       libros.forEach(item => cont.innerHTML += crearCard(item));
     }
 
