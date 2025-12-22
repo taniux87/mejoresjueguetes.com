@@ -18,7 +18,36 @@
           "amazon": "https://www.amazon.es/s?k=montessori+2+a%C3%B1os&crid=1FNDFRKS3Z08D&sprefix=mpntesso%2Caps%2C249&ref=nb_sb_ss_mvt-t11-ranker_4_8",
           "imagenAmazon": "https://m.media-amazon.com/images/I/81My+PFhI7L._AC_UL640_FMwebp_QL65_.jpg",
           "descripcion": "Juguetes Montessori 2 Año"
+        },
+         { 
+          "titulo": "Material Montessori 3 año",
+          "marca": "Montessori",
+          "rating": 4.9,
+          "amazon": "https://www.amazon.es/s?k=montessori+3+a%C3%B1os&crid=1KIRYLSRAV8TJ&sprefix=montessori+3%2Caps%2C244&ref=nb_sb_ss_mvt-t11-ranker_1_12",
+          "imagenAmazon": "https://m.media-amazon.com/images/I/71g6-9MSRbL._AC_UL480_FMwebp_QL65_.jpg",
+          "descripcion": "Juguetes Montessori 3 Año"
         }
+       }
+         "montessori": {
+    "material_matematicas": {
+      "titulo": "Material Montessori Aprende Jugando",
+      "items": [
+         { 
+          "titulo": "Material montessori matematicas",
+          "marca": "Montessori",
+          "rating": 4.9,
+          "amazon": "https://www.amazon.es/s?k=montessori+matematicas&crid=3JD9FC7TWSAIJ&sprefix=montessori+mate%2Caps%2C251&ref=nb_sb_ss_mvt-t11-ranker_1_15",
+          "imagenAmazon": "https://m.media-amazon.com/images/I/81dUuasSDKL._AC_UL480_FMwebp_QL65_.jpg",
+          "descripcion": "Juguetes Montessori Matematicas"
+        },
+        { 
+          "titulo": "Material montessori escritura",
+          "marca": "Montessori",
+          "rating": 4.9,
+          "amazon": "https://www.amazon.es/s?k=montessori+escritura+letras&crid=2JQXE7TVQ92WL&sprefix=montessori+escritura%2Caps%2C245&ref=nb_sb_ss_mvt-t11-ranker_3_20",
+          "imagenAmazon": "https://m.media-amazon.com/images/I/91QHiNC-6oL._AC_UL480_FMwebp_QL65_.jpg",
+          "descripcion": "Juguetes Montessori escritura"
+        },
       ]
     }
   }
