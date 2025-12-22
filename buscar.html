@@ -105,10 +105,14 @@
 
     if (resultados.length === 0) {
       cont.innerHTML = `
-        <div style="grid-column: 1/-1; text-align:center;">
-          <p>No tenemos ese juguete exacto en nuestros rankings, pero puedes buscarlo aquí:</p>
-          <a href="https://www.amazon.es/s?k=${encodeURIComponent(q)}&tag=librarium21-21" target="_blank" class="pag-btn" style="display:inline-block; margin-top:10px;">
-            Buscar "${q}" en Amazon
+        <div style="grid-column: 1/-1; text-align:center; padding: 40px 0;">
+          <p style="font-size: 1.2rem; margin-bottom: 20px;">No tenemos ese juguete exacto en nuestros rankings, pero puedes buscarlo aquí:</p>
+          
+          <a href="https://www.amazon.es/s?k=${encodeURIComponent(q)}&tag=librarium21-21" 
+             target="_blank" 
+             class="pag-btn btn-amarillo" 
+             style="display:inline-block; text-decoration:none; padding: 15px 30px; font-size: 1.1rem;">
+            🔍 Buscar "${q}" en Amazon
           </a>
         </div>`;
       return;
