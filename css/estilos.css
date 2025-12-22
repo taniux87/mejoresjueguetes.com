@@ -542,3 +542,63 @@ main {
   transform: scale(1.03);
   filter: brightness(1.05);
 }
+/* ✅ DISEÑO DEL BANNER SEO SUPERIOR (INDEX) */
+.seo-top-banner {
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.seo-glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.seo-glass-card h1 {
+  color: #0A3D62;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.seo-glass-card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* ✅ BOTONES DE COLORES PASTEL */
+.botones-seo {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.botones-seo .pag-btn {
+  text-decoration: none;
+  border: none !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-rosa { background-color: #f8d7da !important; color: #842029 !important; border: 2px solid #f5c2c7 !important; }
+.btn-amarillo { background-color: #fff3cd !important; color: #664d03 !important; border: 2px solid #ffecb5 !important; }
+.btn-verde { background-color: #d1e7dd !important; color: #0f5132 !important; border: 2px solid #badbcc !important; }
+
+.botones-seo .pag-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  filter: brightness(0.95);
+}
