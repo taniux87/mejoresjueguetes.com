@@ -3,70 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Rankings de Juguetes – MejoresJuguetes.com</title>
-  <meta name="description" content="Descubre los mejores juguetes del año: educativos, STEM, Montessori, creativos y más. Rankings automáticos y actualizados.">
+  <meta name="description" content="Rankings de juguetes recomendados en 2025. Selecciones basadas en popularidad, valoraciones y criterios educativos.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/estilos.css">
 
   <style>
-    /* ✅ SISTEMA DE PAGINACIÓN INTERNA */
-    .ranking-page { 
-      display: none; 
-      animation: fadeIn 0.5s ease-in-out; 
-    }
-    .ranking-page.active { 
-      display: block; 
-    }
-    
+    .ranking-page { display:none; animation:fadeIn .4s ease }
+    .ranking-page.active { display:block }
+
     .paginacion {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin: 40px 0;
+      display:flex; justify-content:center; gap:15px; margin:40px 0;
     }
-
     .pag-btn {
-      padding: 12px 25px;
-      background: #0A3D62;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1.1rem;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding:12px 25px; background:#0A3D62; color:#fff;
+      border:none; border-radius:8px; cursor:pointer;
+      font-weight:bold; font-size:1.1rem;
+    }
+    .pag-btn.active { background:#C9A86A; color:#111 }
+
+    .ranking-intro {
+      max-width:850px;
+      margin:15px auto 30px;
+      color:#444;
+      line-height:1.6;
+      text-align:center;
     }
 
-    .pag-btn:hover {
-      background: #155e94;
-      transform: translateY(-2px);
-    }
-
-    .pag-btn.active {
-      background: #C9A86A;
-      color: #111;
-      transform: scale(1.1);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-    }
-
-    /* Ajuste de imágenes para evitar cuadros vacíos */
     .card img {
-      width: 100%;
-      height: 220px;
-      object-fit: contain;
-      background: #ffffff;
-      border-bottom: 1px solid #eee;
-      padding: 10px;
+      width:100%;
+      height:220px;
+      object-fit:contain;
+      background:#fff;
+      padding:10px;
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
+      from{opacity:0} to{opacity:1}
     }
   </style>
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1152236234412271"
-     crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -74,11 +48,11 @@
 <header class="header">
   <div class="container header-flex">
     <div class="logo-box">
-      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <span class="logo-icon">🧸</span>
       <span class="logo-text">MejoresJuguetes.com</span>
     </div>
 
-   <nav class="menu">
+    <nav class="menu">
       <a href="index.html">Inicio</a>
       <a href="blog.html">Blog</a>
       <a href="juguetes.html">Juguetes</a>
@@ -86,182 +60,102 @@
       <a href="resenas.html">Reseñas</a>
       <a href="contacto.html">Contacto</a>
     </nav>
-
-    <div class="search-box">
-      <form action="buscar.html" method="GET">
-        <input type="text" name="q" placeholder="Buscar juguetes..." required>
-        <button type="submit">🔍</button>
-      </form>
-    </div>
   </div>
 </header>
 
-<section class="hero" style="background-image: url('img/hero.png');">
+<section class="hero" style="background-image:url('img/hero.png');">
   <div class="container hero-overlay">
-    <h2>Rankings de juguetes</h2>
-    <p>Los juguetes más recomendados, valorados y vendidos del año 2025.</p>
+    <h1>Rankings de juguetes</h1>
+    <p>Selecciones basadas en popularidad, valoraciones y criterios de seguridad.</p>
   </div>
 </section>
 
 <main class="container">
 
-  
-  <div class="paginacion">
-    <button class="pag-btn active" onclick="cambiarPagina(1)">1</button>
-    <button class="pag-btn" onclick="cambiarPagina(2)">2</button>
-    <button class="pag-btn" onclick="cambiarPagina(3)">3</button>
-  </div>
+<div class="paginacion">
+  <button class="pag-btn active" onclick="cambiarPagina(1)">1</button>
+  <button class="pag-btn" onclick="cambiarPagina(2)">2</button>
+  <button class="pag-btn" onclick="cambiarPagina(3)">3</button>
+</div>
 
+<!-- ================= PAG 1 ================= -->
+<div id="pag1" class="ranking-page active">
+<section class="section">
+  <h2>Top 10 Consolas y Gaming 2025</h2>
 
-  <div id="pag1" class="ranking-page active">
-    <section class="section">
-      <h2>Top 10 Consolas y Gaming 2025</h2>
-      <div class="ranking-grid">
-        <a href="https://amzn.to/3MM1Wxi class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61h7VjYt-fL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Playstation Consola 5 Digital Chassis E</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/4apcnk4" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71n+F6bHXGL._AC_SX522_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Nintendo Switch OLED</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/3KYdyN6" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61-5iIPexhL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Consola Retro PRO Actualizada 23 Emuladores +20.000 Videojuegos 2 Mandos Inalámbricos Blancos Juegos Clásicos Tarjeta 64GB</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/3KMgZGF" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/717JrHodikL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>nintendo switch 2</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/4qm320X" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61j1ZCgzQRL._AC_SX522_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Volante Logitech G29 Pro</h3><p>⭐ 4.7</p>
-        </a>
-        <a href="https://amzn.to/3L9Ehq1" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61S0ZRxKJFL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>PlayStation Portal Remote</h3><p>⭐ 4.7</p>
-        </a>
-        <a href="https://amzn.to/4srgraf" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/51A9fv-Y5vL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Switch Pro Zelda Edition</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/3YGivxa" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71hKhmsN2oL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Kit Carga y Juega Xbox</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/44E9ZSX" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81oPfXbtB-L._AC_SX522_.jpg" onerror="this.src='img/hero.png'">
-          <h3>15 en 1 Accesorios Switch Sports</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/3MNPOf8" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81WSUY9gyHL._AC_SX569_.jpg" onerror="this.src='img/hero.png'">
-          <h3>EA SPORTS FC 26 Standard Edition PS5</h3><p>⭐ 4.8</p>
-        </a>
-      </div>
-    </section>
-  </div>
+  <p class="ranking-intro">
+    Este ranking reúne las consolas y accesorios gaming más recomendados de 2025,
+    teniendo en cuenta ventas, valoraciones de usuarios y adecuación por edades.
+    Está pensado para ayudar a familias a elegir opciones seguras y populares.
+  </p>
 
-  <div id="pag2" class="ranking-page">
-    <section class="section">
-      <h2>Top 10 Muñecas y Accesorios</h2>
-      <div class="ranking-grid">
-        <a href="https://www.amazon.es/dp/B0DF78N9S2?tag=librarium21-21 class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61i2HF5Y9qL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>GUERRERAS K-POP:Rumi, Zoey y Mira</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/3KYdDQY"card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71D23R2B1rL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Bizak Fingerlings Colas Sorpresa Unicornio</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/4jtxkNr" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81lKZatTwbL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>L.O.L. Surprise! OMG</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/3LeEE2v" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71Os8hxqPpL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Bebés Llorones Stitch</h3><p>⭐ 4.7</p>
-        </a>
-        <a href="https://amzn.to/3L3S6pY" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71Sb7DOqTFL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Enchantimals Parque acuático</h3><p>⭐ 4.7</p>
-        </a>
-        <a href="https://amzn.to/4s9zLIB" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/814Tk14JJVL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>RAINBOW HIGH My Fashion Style Doll - Amay</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://www.amazon.es/dp/B0BVB87723?tag=librarium01-21" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71XmC-H-tFL.jpg" onerror="this.src='img/hero.png'">
-          <h3>Monster High: Clawdeen</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/4jtxLY5" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71GD28bvWGL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Mattel Disney Princess Castillo aventuras</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/494MiVf" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71JgFQsfqVL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Monster High Fabulosa Clawdeen Wolf</h3><p>⭐ 5.0</p>
-        </a>
-        <a href="https://amzn.to/4qs2vLf" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81pzWzeBGGL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Pinypon - Happy Burger, playset Restaurante Food Truck </h3><p>⭐ 4.8</p>
-        </a>
-      </div>
-    </section>
-  </div>
+  <div class="ranking-grid">
+    <a href="https://amzn.to/3MM1Wxi" class="card" target="_blank" rel="noopener sponsored">
+      <img src="https://m.media-amazon.com/images/I/61h7VjYt-fL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
+      <h3>PlayStation 5 Digital</h3><p>⭐ 4.9</p>
+    </a>
 
-  <div id="pag3" class="ranking-page">
-    <section class="section">
-      <h2>Top 10 Tendencias y Virales 2025</h2>
-      <div class="ranking-grid">
-        <a href="https://amzn.to/4apdgsU" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71L4mnzFijL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Rodzon Coche Teledirigido</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/4s9AjOF" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71NYX3kUtmL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Bola de Salto de Tobillo</h3><p>⭐ 5.0</p>
-        </a>
-        <a href="https://amzn.to/3Y83KmK" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71SwlWrn9CL._AC_SX425_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Fede Karaoke 2 Micrófonos para Niños</h3><p>⭐ 5.0</p>
-        </a>
-        <a href="https://amzn.to/4p3fzW7" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71LMs028keL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Magic Mixies Caldero</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/48Rm75y" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71adfhnOF+L._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Furby Interactivo 2025</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/48NU72G" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/81MhihnPbUL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Cookeez Makery Oven</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/4pQgxWU" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/817ZSQv7u3L._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Bitzee Harry Potter</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/4s8xEF7" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/71AeHLrJFnL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>GraviTrax Starter Set</h3><p>⭐ 4.9</p>
-        </a>
-        <a href="https://amzn.to/4pMsg8X" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61ccSli5CvL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Tamagotchi Uni Wi-Fi</h3><p>⭐ 4.8</p>
-        </a>
-        <a href="https://amzn.to/4qpdB3v" class="card" target="_blank">
-          <img src="https://m.media-amazon.com/images/I/61EeH0Hk1xL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
-          <h3>Bolas Locas Magnéticas</h3><p>⭐ 4.8</p>
-        </a>
-      </div>
-    </section>
-  </div>
+    <a href="https://amzn.to/4apcnk4" class="card" target="_blank" rel="noopener sponsored">
+      <img src="https://m.media-amazon.com/images/I/71n+F6bHXGL._AC_SX522_.jpg" onerror="this.src='img/hero.png'">
+      <h3>Nintendo Switch OLED</h3><p>⭐ 4.9</p>
+    </a>
 
-   <div class="paginacion">
-    <button class="pag-btn active" onclick="cambiarPagina(1)">1</button>
-    <button class="pag-btn" onclick="cambiarPagina(2)">2</button>
-    <button class="pag-btn" onclick="cambiarPagina(3)">3</button>
+    <a href="https://amzn.to/3KYdyN6" class="card" target="_blank" rel="noopener sponsored">
+      <img src="https://m.media-amazon.com/images/I/61-5iIPexhL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
+      <h3>Consola Retro PRO</h3><p>⭐ 4.8</p>
+    </a>
   </div>
+</section>
+</div>
+
+<!-- ================= PAG 2 ================= -->
+<div id="pag2" class="ranking-page">
+<section class="section">
+  <h2>Top 10 Muñecas y Accesorios</h2>
+
+  <p class="ranking-intro">
+    Selección de muñecas y juguetes de juego simbólico que destacan por su
+    aceptación entre niños, calidad de materiales y valor educativo.
+  </p>
+
+  <div class="ranking-grid">
+    <a href="https://amzn.to/3KYdDQY" class="card" target="_blank" rel="noopener sponsored">
+      <img src="https://m.media-amazon.com/images/I/71D23R2B1rL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
+      <h3>Fingerlings Unicornio</h3><p>⭐ 4.8</p>
+    </a>
+
+    <a href="https://amzn.to/4jtxkNr" class="card" target="_blank" rel="noopener sponsored">
+      <img src="https://m.media-amazon.com/images/I/81lKZatTwbL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
+      <h3>L.O.L. Surprise OMG</h3><p>⭐ 4.8</p>
+    </a>
+  </div>
+</section>
+</div>
+
+<!-- ================= PAG 3 ================= -->
+<div id="pag3" class="ranking-page">
+<section class="section">
+  <h2>Juguetes tendencia y virales 2025</h2>
+
+  <p class="ranking-intro">
+    Juguetes que se han hecho virales por su originalidad, innovación o éxito
+    en redes sociales y plataformas de venta online.
+  </p>
+
+  <div class="ranking-grid">
+    <a href="https://amzn.to/4apdgsU" class="card" target="_blank" rel="noopener sponsored">
+      <img src="https://m.media-amazon.com/images/I/71L4mnzFijL._AC_SX679_.jpg" onerror="this.src='img/hero.png'">
+      <h3>Coche Teledirigido Rodzon</h3><p>⭐ 4.9</p>
+    </a>
+  </div>
+</section>
+</div>
+
+<p style="font-size:0.9rem;color:#666;text-align:center;margin:40px auto;">
+  Algunos enlaces de esta página pueden ser enlaces de afiliado.
+  Esto no influye en nuestras recomendaciones ni en el precio final.
+</p>
+
 </main>
 
 <footer class="footer">
@@ -276,21 +170,17 @@
 </footer>
 
 <script>
-  function cambiarPagina(n) {
-    // Ocultar todas las páginas
-    document.querySelectorAll('.ranking-page').forEach(p => p.classList.remove('active'));
-    // Mostrar solo la seleccionada
-    document.getElementById('pag' + n).classList.add('active');
-    
-    // Sincronizar botones superiores e inferiores
-    document.querySelectorAll('.pag-btn').forEach(btn => {
-      btn.classList.remove('active');
-      if(btn.innerText == n) btn.classList.add('active');
-    });
+function cambiarPagina(n){
+  document.querySelectorAll('.ranking-page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('pag'+n).classList.add('active');
 
-    // Scroll suave al inicio del contenido
-    window.scrollTo({ top: 400, behavior: 'smooth' });
-  }
+  document.querySelectorAll('.pag-btn').forEach(b=>{
+    b.classList.remove('active');
+    if(b.innerText==n) b.classList.add('active');
+  });
+
+  window.scrollTo({top:350,behavior:'smooth'});
+}
 </script>
 
 </body>
