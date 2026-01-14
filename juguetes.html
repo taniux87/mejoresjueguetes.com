@@ -3,197 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Catálogo de Juguetes 2025 – MejoresJuguetes.com</title>
-  <meta name="description" content="Explora nuestro catálogo completo categorías de juguetes seleccionados para 2025-2026.">
+  <meta name="description" content="Catálogo completo de juguetes recomendados para 2025 y 2026. Juguetes educativos, creativos, STEM y por edades.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/estilos.css">
-  
-  <style>
-    /* ============================================================
-       ESTILOS DE NAVEGACIÓN Y PESTAÑAS (COLORES PASTEL)
-       ============================================================ */
-    .tabs, .subtabs {
-      display: flex;
-      gap: 15px;
-      margin-bottom: 30px;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 10px;
-    }
-
-    /* Definición de variables para colores pastel solicitados */
-    :root {
-      --pastel-rosa: #ffd1dc;
-      --pastel-verde: #c1e1c1;
-      --pastel-azul: #aec6cf;
-      --pastel-amarillo: #fff9b1;
-      --navy: #0A3D62;
-      --gold: #C9A86A;
-    }
-
-    /* Clases de colores para los 13 botones */
-    .btn-rosa { background-color: var(--pastel-rosa) !important; color: #444 !important; border: 1px solid #ffb6c1 !important; }
-    .btn-verde { background-color: var(--pastel-verde) !important; color: #444 !important; border: 1px solid #a3c9a3 !important; }
-    .btn-azul { background-color: var(--pastel-azul) !important; color: #444 !important; border: 1px solid #8caec1 !important; }
-    .btn-amarillo { background-color: var(--pastel-amarillo) !important; color: #444 !important; border: 1px solid #f9e076 !important; }
-
-    .tab-btn {
-      padding: 14px 24px;
-      border-radius: 12px;
-      cursor: pointer;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 0.9rem;
-      min-width: 140px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    }
-
-    .tab-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      filter: brightness(0.95);
-    }
-
-    .tab-btn.active {
-      transform: scale(1.08);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-      border: 3px solid #333 !important;
-      z-index: 10;
-    }
-
-    .subtab-btn {
-      padding: 10px 20px;
-      background: var(--navy);
-      color: #fff;
-      border-radius: 25px;
-      cursor: pointer;
-      border: 2px solid transparent;
-      font-size: 0.95rem;
-      transition: 0.3s;
-    }
-
-    .subtab-btn:hover {
-      background: #155e94;
-    }
-
-    .subtab-btn.active {
-      background: var(--gold);
-      color: #111;
-      font-weight: bold;
-      border-color: #b8955c;
-    }
-
-    /* ============================================================
-       GRID DE PRODUCTOS Y TARJETAS
-       ============================================================ */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 30px;
-      margin-top: 40px;
-      min-height: 400px;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 20px;
-      padding: 20px;
-      border: 1px solid #f0f0f0;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.03);
-      transition: all 0.3s ease;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      color: #333;
-    }
-
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-      border-color: var(--gold);
-    }
-
-    .card img {
-      width: 100%;
-      height: 220px;
-      object-fit: contain;
-      background: #fafafa;
-      border-radius: 15px;
-      margin-bottom: 15px;
-      padding: 10px;
-    }
-
-    .card h3 {
-      font-size: 1.15rem;
-      margin: 10px 0;
-      height: 2.8em;
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-    }
-
-    .rating {
-      color: #f39c12;
-      font-weight: bold;
-      margin: 10px 0;
-      font-size: 1.2rem;
-    }
-
-    .btn-amazon {
-      margin-top: auto;
-      background: var(--navy);
-      color: #fff;
-      padding: 14px;
-      border-radius: 10px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    /* ============================================================
-       PAGINACIÓN Y ESTADOS CARGA
-       ============================================================ */
-    .pagination {
-      margin: 60px 0;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      align-items: center;
-      padding-bottom: 100px;
-    }
-
-    .pagination button {
-      padding: 12px 30px;
-      background: var(--navy);
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .pagination button:hover:not(:disabled) {
-      background: var(--gold);
-      color: #111;
-    }
-
-    .pagination button:disabled {
-      background: #ddd;
-      cursor: not-allowed;
-    }
-
-    .loading-box {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 80px;
-      background: #fdfdfd;
-      border-radius: 30px;
-      border: 2px dashed #eee;
-    }
-  </style>
 </head>
 
 <body>
@@ -201,9 +13,10 @@
 <header class="header">
   <div class="container header-flex">
     <div class="logo-box">
-      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <img src="img/hero.png" alt="Logo MejoresJuguetes.com" class="logo-img">
       <span class="logo-text">MejoresJuguetes.com</span>
     </div>
+
     <nav class="menu">
       <a href="index.html">Inicio</a>
       <a href="blog.html">Blog</a>
@@ -212,6 +25,7 @@
       <a href="resenas.html">Reseñas</a>
       <a href="contacto.html">Contacto</a>
     </nav>
+
     <div class="search-box">
       <form action="buscar.html" method="GET">
         <input type="text" name="q" placeholder="Buscar en el catálogo..." required>
@@ -221,208 +35,164 @@
   </div>
 </header>
 
-<section class="hero" style="background-image: url('img/hero.png');">
+<section class="hero" style="background-image:url('img/hero.png');">
   <div class="container hero-overlay">
-    <h2>Catálogo de Juguetes 2025</h2>
-    <p>Explora nuestras 13 secciones especializadas con los juguetes mejor valorados.</p>
+    <h1>Catálogo de juguetes</h1>
+    <p>Explora juguetes seleccionados por edad, tipo y valor educativo.</p>
   </div>
 </section>
 
 <main class="container">
 
-  <section style="margin-top: 40px;">
-    <div id="main-tabs" class="tabs" role="tablist">
-      </div>
-  </section>
+<section style="margin-top:40px;">
+  <div id="main-tabs" class="tabs" role="tablist"></div>
+</section>
 
-  <section>
-    <div id="sub-tabs" class="subtabs" role="tablist">
-      </div>
-  </section>
+<section>
+  <div id="sub-tabs" class="subtabs" role="tablist"></div>
+</section>
 
-  <section>
-    <div id="resultados" class="grid">
-      <div class="loading-box">
-        <h3>Preparando catálogo...</h3>
-        <p>Sincronizando con juguetes.json para mostrar las últimas novedades.</p>
-      </div>
+<section>
+  <div id="resultados" class="grid">
+    <div class="loading-box">
+      <h3>Cargando catálogo…</h3>
+      <p>Preparando las últimas recomendaciones.</p>
     </div>
+  </div>
 
-    <div id="paginacion" class="pagination" style="display: none;">
-      <button id="btnAnterior">← ANTERIOR</button>
-      <span id="infoPagina" style="font-size: 1.1rem; font-weight: 800; color: #555;"></span>
-      <button id="btnSiguiente">SIGUIENTE →</button>
-    </div>
-  </section>
+  <div id="paginacion" class="pagination" style="display:none;">
+    <button id="btnAnterior">← Anterior</button>
+    <span id="infoPagina"></span>
+    <button id="btnSiguiente">Siguiente →</button>
+  </div>
+</section>
+
+<p style="max-width:900px;margin:60px auto 0;font-size:0.9rem;color:#666;line-height:1.6;text-align:center;">
+  Algunos enlaces de este catálogo pueden ser enlaces de afiliado.
+  Esto no afecta al precio final ni a nuestras recomendaciones.
+  Seleccionamos los juguetes en base a popularidad, valoraciones y criterios educativos.
+</p>
 
 </main>
 
 <footer class="footer">
   <div class="container">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
-      <p>© 2025 MejoresJuguetes.com – Expertos en diversión y aprendizaje</p>
-      <div class="footer-links">
-        <a href="privacidad.html">Privacidad</a>
-        <a href="cookies.html">Cookies</a>
-        <a href="aviso-legal.html">Aviso Legal</a>
-      </div>
+    <p>© 2025 MejoresJuguetes.com – Expertos en diversión y aprendizaje</p>
+    <div class="footer-links">
+      <a href="privacidad.html">Privacidad</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="aviso-legal.html">Aviso legal</a>
     </div>
   </div>
 </footer>
 
 <script>
-  /**
-   * CORE ENGINE - MEJORES JUGUETES 2025
-   * Este script gestiona la carga de 13 secciones desde un archivo JSON local.
-   */
-  let globalData = {};
-  let currentCat = "";
-  let currentSub = "";
-  let currentPage = 0;
-  const ITEMS_PER_PAGE = 24;
-  const DEFAULT_IMG = "img/hero.png"; // Imagen de respaldo confirmada en el repo
+let globalData = {};
+let currentCat = "";
+let currentSub = "";
+let currentPage = 0;
 
-  // Mapeo de clases de colores para rotación automática
-  const colorClasses = ["btn-rosa", "btn-verde", "btn-azul", "btn-amarillo"];
+const ITEMS_PER_PAGE = 24;
+const DEFAULT_IMG = "img/hero.png";
+const colorClasses = ["btn-rosa","btn-verde","btn-azul","btn-amarillo"];
 
-  async function startApp() {
-    const display = document.getElementById("resultados");
-    try {
-      // Fetch con prevención de caché para desarrollo activo
-      const response = await fetch("juguetes.json?timestamp=" + new Date().getTime());
-      
-      if (!response.ok) {
-        throw new Error("HTTP Error: No se encuentra el archivo juguetes.json");
-      }
-
-      globalData = await response.json();
-      const sections = Object.keys(globalData);
-
-      if (sections.length === 0) {
-        display.innerHTML = "<h3>El archivo JSON no contiene datos válidos.</h3>";
-        return;
-      }
-
-      // Inicialización de la interfaz
-      renderMainCategories(sections);
-      
-      // Auto-carga de la primera sección
-      loadCategoryData(sections[0]);
-
-    } catch (error) {
-      console.error("Critical Error:", error);
-      display.innerHTML = `
-        <div class="loading-box" style="border-color: #ff4444;">
-          <h3 style="color: #ff4444;">⚠️ ERROR CRÍTICO DE LECTURA</h3>
-          <p>El sistema no pudo conectar con <strong>juguetes.json</strong>.</p>
-          <p style="font-size: 0.8rem; margin-top: 10px;">Causa: ${error.message}</p>
-        </div>`;
-    }
+async function startApp(){
+  const display = document.getElementById("resultados");
+  try{
+    const res = await fetch("juguetes.json?ts=" + Date.now());
+    if(!res.ok) throw new Error("No se pudo cargar juguetes.json");
+    globalData = await res.json();
+    const sections = Object.keys(globalData);
+    renderMainCategories(sections);
+    loadCategoryData(sections[0]);
+  }catch(e){
+    display.innerHTML = `
+      <div class="loading-box">
+        <h3>Error al cargar el catálogo</h3>
+        <p>${e.message}</p>
+      </div>`;
   }
+}
 
-  function renderMainCategories(cats) {
-    const container = document.getElementById("main-tabs");
-    container.innerHTML = "";
+function renderMainCategories(cats){
+  const cont = document.getElementById("main-tabs");
+  cont.innerHTML = "";
+  cats.forEach((cat,i)=>{
+    const btn = document.createElement("button");
+    btn.className = `tab-btn ${colorClasses[i%4]} ${i===0?"active":""}`;
+    btn.textContent = cat.replace(/_/g," ");
+    btn.onclick = ()=>{
+      document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      loadCategoryData(cat);
+    };
+    cont.appendChild(btn);
+  });
+}
 
-    cats.forEach((cat, i) => {
-      const btn = document.createElement("button");
-      // Asignación de color pastel rotativo (13 botones divididos en 4 colores)
-      const color = colorClasses[i % colorClasses.length];
-      
-      btn.className = `tab-btn ${color} ${i === 0 ? "active" : ""}`;
-      btn.textContent = cat.replace(/_/g, " ");
-      
-      btn.onclick = () => {
-        document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        loadCategoryData(cat);
-      };
-      container.appendChild(btn);
-    });
-  }
-
-  function loadCategoryData(catName) {
-    currentCat = catName;
-    const subCategories = Object.keys(globalData[catName]);
-    const subContainer = document.getElementById("sub-tabs");
-    subContainer.innerHTML = "";
-
-    subCategories.forEach((sub, index) => {
-      const sBtn = document.createElement("button");
-      sBtn.className = `subtab-btn ${index === 0 ? "active" : ""}`;
-      sBtn.textContent = globalData[catName][sub].titulo || sub.replace(/_/g, " ");
-      
-      sBtn.onclick = () => {
-        document.querySelectorAll(".subtab-btn").forEach(b => b.classList.remove("active"));
-        sBtn.classList.add("active");
-        currentSub = sub;
-        currentPage = 0;
-        drawGallery();
-      };
-      subContainer.appendChild(sBtn);
-    });
-
-    currentSub = subCategories[0];
-    currentPage = 0;
-    drawGallery();
-  }
-
-  function drawGallery() {
-    const viewer = document.getElementById("resultados");
-    const pagPanel = document.getElementById("paginacion");
-    
-    const target = globalData[currentCat][currentSub];
-    if (!target || !target.items) {
-      viewer.innerHTML = "<h3>No se encontraron productos en esta subcategoría.</h3>";
-      pagPanel.style.display = "none";
-      return;
-    }
-
-    const allItems = target.items;
-    const totalItems = allItems.length;
-    const startIndex = currentPage * ITEMS_PER_PAGE;
-    const slice = allItems.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-
-    viewer.innerHTML = slice.map(item => `
-      <div class="card">
-        <img src="${item.imagenAmazon || DEFAULT_IMG}" 
-             onerror="this.src='${DEFAULT_IMG}'" 
-             alt="${item.titulo}">
-        <h3>${item.titulo}</h3>
-        <div class="rating">⭐ ${item.rating || '4.5'}</div>
-        <a href="${item.amazon}" class="btn-amazon" target="_blank">🛒 VER EN AMAZON</a>
-      </div>
-    `).join("");
-
-    // Gestión avanzada de paginación
-    const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
-    if (totalPages > 1) {
-      pagPanel.style.display = "flex";
-      document.getElementById("infoPagina").innerText = `PÁGINA ${currentPage + 1} / ${totalPages}`;
-      document.getElementById("btnAnterior").disabled = (currentPage === 0);
-      document.getElementById("btnSiguiente").disabled = (currentPage + 1 >= totalPages);
-    } else {
-      pagPanel.style.display = "none";
-    }
-  }
-
-  // Navegación de páginas con scroll suave
-  document.getElementById("btnAnterior").onclick = () => {
-    if (currentPage > 0) {
-      currentPage--;
+function loadCategoryData(cat){
+  currentCat = cat;
+  const subs = Object.keys(globalData[cat]);
+  const cont = document.getElementById("sub-tabs");
+  cont.innerHTML = "";
+  subs.forEach((s,i)=>{
+    const b = document.createElement("button");
+    b.className = `subtab-btn ${i===0?"active":""}`;
+    b.textContent = globalData[cat][s].titulo || s.replace(/_/g," ");
+    b.onclick = ()=>{
+      document.querySelectorAll(".subtab-btn").forEach(x=>x.classList.remove("active"));
+      b.classList.add("active");
+      currentSub = s;
+      currentPage = 0;
       drawGallery();
-      window.scrollTo({ top: 380, behavior: 'smooth' });
-    }
-  };
+    };
+    cont.appendChild(b);
+  });
+  currentSub = subs[0];
+  currentPage = 0;
+  drawGallery();
+}
 
-  document.getElementById("btnSiguiente").onclick = () => {
-    currentPage++;
-    drawGallery();
-    window.scrollTo({ top: 380, behavior: 'smooth' });
-  };
+function drawGallery(){
+  const viewer = document.getElementById("resultados");
+  const pag = document.getElementById("paginacion");
+  const data = globalData[currentCat][currentSub].items || [];
+  const start = currentPage * ITEMS_PER_PAGE;
+  const slice = data.slice(start, start + ITEMS_PER_PAGE);
 
-  // Ejecución inicial
-  window.addEventListener('DOMContentLoaded', startApp);
+  viewer.innerHTML = slice.map(item=>`
+    <div class="card">
+      <img src="${item.imagenAmazon || DEFAULT_IMG}"
+           onerror="this.src='${DEFAULT_IMG}'"
+           alt="${item.titulo}">
+      <h3>${item.titulo}</h3>
+      <div class="rating">⭐ ${item.rating || "4.5"}</div>
+      <a href="${item.amazon}"
+         class="btn-amazon"
+         target="_blank"
+         rel="noopener sponsored">Ver en Amazon</a>
+    </div>
+  `).join("");
+
+  const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
+  if(totalPages > 1){
+    pag.style.display = "flex";
+    document.getElementById("infoPagina").textContent = `Página ${currentPage+1} / ${totalPages}`;
+    document.getElementById("btnAnterior").disabled = currentPage===0;
+    document.getElementById("btnSiguiente").disabled = currentPage+1>=totalPages;
+  }else{
+    pag.style.display = "none";
+  }
+}
+
+document.getElementById("btnAnterior").onclick = ()=>{
+  if(currentPage>0){ currentPage--; drawGallery(); }
+};
+document.getElementById("btnSiguiente").onclick = ()=>{
+  currentPage++; drawGallery();
+};
+
+window.addEventListener("DOMContentLoaded", startApp);
 </script>
 
 </body>
