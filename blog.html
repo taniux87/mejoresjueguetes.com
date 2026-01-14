@@ -5,10 +5,9 @@
   <title>Blog – MejoresJuguetes.com</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/estilos.css">
-  <meta name="description" content="Artículos, curiosidades, análisis y consejos para padres sobre juguetes y crianza en MejoresJuguetes.com.">
+  <meta name="description" content="Artículos, guías y consejos reales para padres sobre juguetes, juego y crianza consciente en MejoresJuguetes.com.">
 
   <style>
-    /* ✅ Cards del blog */
     .blog-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -55,7 +54,7 @@
       margin-bottom: 12px;
     }
 
-    .blog-card .leer-mas {
+    .leer-mas {
       font-weight: 600;
       color: #C9A86A;
     }
@@ -64,181 +63,113 @@
 
 <body>
 
-  <!-- ✅ HEADER UNIFICADO -->
-  <header class="header">
-    <div class="container header-flex">
-
-      <div class="logo-box">
-        <span class="logo-icon">🧸</span>
-        <span class="logo-text">MejoresJuguetes.com</span>
-      </div>
-
-      <nav class="menu">
-        <a href="index.html">Inicio</a>
-        <a href="blog.html" class="active">Blog</a>
-        <a href="juguetes.html">Juguetes</a>
-        <a href="rankings.html">Rankings</a>
-        <a href="resenas.html">Reseñas</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-
-      <div class="search-box">
-        <form action="buscar.html" method="GET">
-          <input type="text" name="q" placeholder="Buscar juguetes..." required>
-          <button type="submit">🔍</button>
-        </form>
-      </div>
-
+<header class="header">
+  <div class="container header-flex">
+    <div class="logo-box">
+      <span class="logo-icon">🧸</span>
+      <span class="logo-text">MejoresJuguetes.com</span>
     </div>
-  </header>
 
-  <!-- ✅ HERO DEL BLOG -->
-  <section class="hero" style="background-image: url('img/hero.png');">
-    <div class="container hero-overlay">
-      <h2>Artículos y guías para padres</h2>
-      <p>Descubre consejos, curiosidades y guías prácticas sobre juguetes y crianza respetuosa.</p>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="juguetes.html">Juguetes</a>
+      <a href="rankings.html">Rankings</a>
+      <a href="resenas.html">Reseñas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="search-box">
+      <form action="buscar.html" method="GET">
+        <input type="text" name="q" placeholder="Buscar en el blog..." required>
+        <button type="submit">🔍</button>
+      </form>
     </div>
-  </section>
+  </div>
+</header>
 
-  <!-- ✅ CONTENIDO PRINCIPAL -->
-  <main class="container">
+<section class="hero" style="background-image: url('img/hero.png');">
+  <div class="container hero-overlay">
+    <h2>Guías y artículos para padres</h2>
+    <p>Consejos claros sobre juguetes, juego y crianza real, sin modas ni ruido.</p>
+  </div>
+</section>
 
-    <!-- ✅ LISTADO PRINCIPAL DE ARTÍCULOS -->
-    <section class="section">
-      <h2>Últimos artículos</h2>
+<main class="container">
 
-      <div class="blog-grid">
+<section class="section">
+  <h2>Artículos destacados</h2>
 
-        <a href="articulo1.html" class="blog-card">
-          <img src="img/blog1.png" alt="Artículo 1">
-          <div class="blog-card-content">
-            <h3>Cómo elegir el juguete perfecto según la edad</h3>
-            <p>Una guía rápida para saber qué tipo de juguete encaja mejor en cada etapa del desarrollo.</p>
-            <span class="leer-mas">Leer más →</span>
-          </div>
-        </a>
+  <div class="blog-grid">
 
-        <a href="articulo2.html" class="blog-card">
-          <img src="img/blog2.png" alt="Artículo 2">
-          <div class="blog-card-content">
-            <h3>10 errores habituales al comprar juguetes</h3>
-            <p>Cosas que casi todos los padres hacemos sin darnos cuenta y cómo evitarlas.</p>
-            <span class="leer-mas">Leer más →</span>
-          </div>
-        </a>
-
-        <a href="articulo3.html" class="blog-card">
-          <img src="img/blog3.png" alt="Artículo 3">
-          <div class="blog-card-content">
-            <h3>Por qué el juego libre es clave en la infancia</h3>
-            <p>Qué es el juego libre, por qué es tan importante y cómo favorecerlo en casa.</p>
-            <span class="leer-mas">Leer más →</span>
-          </div>
-        </a>
-
+    <a href="articulo1.html" class="blog-card">
+      <img src="img/blog1.png" alt="Cómo elegir el juguete perfecto">
+      <div class="blog-card-content">
+        <h3>Cómo elegir el juguete perfecto sin volverte loco</h3>
+        <p>Guía práctica para acertar según la edad, el momento y las necesidades reales del niño.</p>
+        <span class="leer-mas">Leer más →</span>
       </div>
-    </section>
+    </a>
 
-    <!-- ✅ ARTÍCULOS CRIANZA / JUGUETES -->
-    <section class="section">
-
-      <h2>Guías rápidas para madres y padres</h2>
-      
-      <div class="blog-grid">
-        <a class="list-item" href="articulo1.html">Cómo elegir juguetes según la edad y el desarrollo</a>
-        <a class="list-item" href="articulo2.html">Juguetes que conviene evitar y por qué</a>
-        <a class="list-item" href="articulo3.html">Ideas de juego sin pantallas para días de lluvia</a>
-        <a class="list-item" href="articulo4.html">Cómo organizar los juguetes para que tu hijo juegue más</a>
-        <a class="list-item" href="articulo5.html">Claves para no saturar a tu hijo con demasiados juguetes</a>
+    <a href="articulo2.html" class="blog-card">
+      <img src="img/blog2.png" alt="Juguetes que deberías conocer este año">
+      <div class="blog-card-content">
+        <h3>Juguetes que deberías conocer este año</h3>
+        <p>Tipos de juguetes que están marcando tendencia por cómo acompañan el desarrollo infantil.</p>
+        <span class="leer-mas">Leer más →</span>
       </div>
-    </section>
+    </a>
 
-    <!-- ✅ MICRO‑ARTÍCULOS DINÁMICOS -->
-    <section class="section">
-      <h2>Tips rápidos de crianza y juego</h2>
-
-      <div class="grid">
-
-        <div class="card">
-          <h3>🧠 ¿Sabías que…?</h3>
-          <p>Solo 10–15 minutos de juego de calidad al día con tu hijo pueden mejorar muchísimo vuestro vínculo.</p>
-        </div>
-
-        <div class="card">
-          <h3>🎨 Juego libre</h3>
-          <p>No pasa nada si tu hijo dice “me aburro”: el aburrimiento es la puerta a la creatividad.</p>
-        </div>
-
-        <div class="card">
-          <h3>🧸 Menos es más</h3>
-          <p>Demasiados juguetes a la vista pueden bloquear el juego. Rotar juguetes ayuda a que los redescubran.</p>
-        </div>
-
-        <div class="card">
-          <h3>👣 Movimiento</h3>
-          <p>El juego activo (saltar, correr, trepar) mejora la regulación emocional y el sueño.</p>
-        </div>
-
-        <div class="card">
-          <h3>🤝 Juego en familia</h3>
-          <p>Los juegos de mesa sencillos son una forma perfecta de trabajar turnos, normas y frustración.</p>
-        </div>
-
-        <div class="card">
-          <h3>🍼 Primera infancia</h3>
-          <p>En bebés, los mejores “juguetes” suelen ser objetos cotidianos seguros y supervisados.</p>
-        </div>
-
+    <a href="articulo3.html" class="blog-card">
+      <img src="img/blog3.png" alt="Juego imaginativo">
+      <div class="blog-card-content">
+        <h3>Los mejores juguetes para empezar con el juego imaginativo</h3>
+        <p>Ideas sencillas para fomentar el juego simbólico desde casa sin saturar.</p>
+        <span class="leer-mas">Leer más →</span>
       </div>
-    </section>
+    </a>
 
-    <!-- ✅ FRASES / MENSAJES INSPIRADORES PARA PADRES -->
-    <section class="section">
-      <h2>Frases para acompañarte en la crianza</h2>
-
-      <div class="grid">
-
-        <div class="card">
-          <h3>Presencia</h3>
-          <p><em>“Los niños no necesitan padres perfectos, necesitan padres presentes.”</em></p>
-          <p style="font-size:0.9rem; color:#555;">— Anónimo</p>
-        </div>
-
-        <div class="card">
-          <h3>Juego</h3>
-          <p><em>“El juego es la forma favorita de nuestro hijo de aprender.”</em></p>
-          <p style="font-size:0.9rem; color:#555;">— Inspirado en Montessori</p>
-        </div>
-
-        <div class="card">
-          <h3>Tiempo</h3>
-          <p><em>“Para un niño, diez minutos contigo valen más que el mejor juguete del mundo.”</em></p>
-          <p style="font-size:0.9rem; color:#555;">— Anónimo</p>
-        </div>
-
-        <div class="card">
-          <h3>Autocuidado</h3>
-          <p><em>“Cuidarte tú también es una forma de cuidar a tu hijo.”</em></p>
-          <p style="font-size:0.9rem; color:#555;">— Anónimo</p>
-        </div>
-
+    <a href="articulo4.html" class="blog-card">
+      <img src="img/blog4.png" alt="Hábito de juego sano">
+      <div class="blog-card-content">
+        <h3>Cómo crear un hábito de juego sano en casa</h3>
+        <p>Rutinas simples para reducir pantallas y aumentar el juego de calidad.</p>
+        <span class="leer-mas">Leer más →</span>
       </div>
-    </section>
+    </a>
 
-  </main>
-
-  <!-- ✅ FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 MejoresJuguetes.com – Todos los derechos reservados</p>
-      <div class="footer-links">
-        <a href="quienes-somos.html">Quiénes somos</a>
-        <a href="privacidad.html">Política de privacidad</a>
-        <a href="cookies.html">Política de cookies</a>
-        <a href="aviso-legal.html">Aviso legal</a>
+    <a href="articulo5.html" class="blog-card">
+      <img src="img/blog5.png" alt="Juguetes que marcan la infancia">
+      <div class="blog-card-content">
+        <h3>Juguetes que marcan la infancia</h3>
+        <p>Esos juguetes que se recuerdan toda la vida y crean recuerdos reales.</p>
+        <span class="leer-mas">Leer más →</span>
       </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="section">
+  <p style="max-width:900px;margin:auto;font-size:0.95rem;color:#555;text-align:center;">
+    En MejoresJuguetes.com publicamos contenidos pensados para ayudar de verdad a madres y padres,
+    basados en experiencia real, observación y sentido común.
+  </p>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 MejoresJuguetes.com – Todos los derechos reservados</p>
+    <div class="footer-links">
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="privacidad.html">Política de privacidad</a>
+      <a href="cookies.html">Política de cookies</a>
+      <a href="aviso-legal.html">Aviso legal</a>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </body>
 </html>
