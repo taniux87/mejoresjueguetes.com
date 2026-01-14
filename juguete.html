@@ -4,46 +4,46 @@
   <meta charset="UTF-8">
   <title>Ficha de Juguete – MejoresJuguetes.com</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ficha completa del juguete con características, edad recomendada y enlace de compra.">
   <link rel="stylesheet" href="css/estilos.css">
-  <meta name="description" content="Detalles completos del juguete y enlace de compra en Amazon.">
+
   <style>
-    /* Estilos específicos para la ficha de producto */
     .product-detail-card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 30px;
-      margin: 40px auto;
-      max-width: 900px;
-      border: 1px solid #ddd;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      background:#fff;
+      border-radius:12px;
+      padding:30px;
+      margin:40px auto;
+      max-width:900px;
+      border:1px solid #ddd;
+      display:flex;
+      flex-wrap:wrap;
+      gap:30px;
+      box-shadow:0 4px 10px rgba(0,0,0,.05);
     }
     .product-detail-card img {
-      flex: 0 0 300px;
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
+      flex:0 0 300px;
+      max-width:100%;
+      border-radius:8px;
+      background:#fafafa;
+      padding:10px;
     }
     .product-detail-info {
-      flex: 1;
-      min-width: 300px;
+      flex:1;
+      min-width:280px;
     }
     .amazon-btn {
-      display: inline-block;
-      background: #FF9900;
-      color: #111;
-      padding: 15px 25px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
-      border: 1px solid #a88734;
-      margin: 20px 0;
-      transition: background 0.2s;
+      display:inline-block;
+      background:#FF9900;
+      color:#111;
+      padding:15px 25px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+      font-size:1.1rem;
+      border:1px solid #a88734;
+      margin:20px 0;
     }
-    .amazon-btn:hover { background: #e68a00; }
+    .amazon-btn:hover { background:#e68a00; }
   </style>
 </head>
 
@@ -52,7 +52,7 @@
 <header class="header">
   <div class="container header-flex">
     <div class="logo-box">
-      <img src="img/hero.png" alt="Logo MejoresJuguetes" class="logo-img">
+      <img src="img/hero.png" alt="Logo MejoresJuguetes.com" class="logo-img">
       <span class="logo-text">MejoresJuguetes.com</span>
     </div>
 
@@ -74,16 +74,21 @@
   </div>
 </header>
 
-<section class="hero" style="background-image: url('img/hero.png');">
+<section class="hero" style="background-image:url('img/hero.png');">
   <div class="container hero-overlay">
-    <h1 id="tituloHero">Cargando...</h1>
+    <h1 id="tituloHero">Cargando juguete…</h1>
   </div>
 </section>
 
 <main class="container">
   <section id="contenidoJuguete">
-    <p style="text-align:center; padding: 40px;">Buscando información del juguete...</p>
+    <p style="text-align:center;padding:40px;">Cargando información del juguete…</p>
   </section>
+
+  <p style="max-width:900px;margin:40px auto 0;font-size:.9rem;color:#666;text-align:center;">
+    Algunos enlaces de esta página pueden ser enlaces de afiliado.
+    Esto no afecta al precio final ni a nuestras recomendaciones.
+  </p>
 </main>
 
 <footer class="footer">
@@ -99,54 +104,64 @@
 </footer>
 
 <script>
-  const AFFILIATE_TAG = "mejoresjuguetes-21";
-  let juguetesData = {};
+const AFFILIATE_TAG = "mejoresjuguetes-21";
+const DEFAULT_IMG = "img/hero.png";
 
-  async function cargarJuguete() {
-    try {
-      const res = await fetch("juguetes.json");
-      juguetesData = await res.json();
+async function cargarJuguete(){
+  try{
+    const res = await fetch("juguetes.json?ts=" + Date.now());
+    if(!res.ok) throw new Error("No se pudo cargar juguetes.json");
 
-      const params = new URLSearchParams(window.location.search);
-      const categoria = params.get("cat");
-      const id = params.get("id");
+    const data = await res.json();
+    const params = new URLSearchParams(location.search);
+    const cat = params.get("cat");
+    const id = params.get("id");
 
-      if (!categoria || !id || !juguetesData[categoria] || !juguetesData[categoria][id]) {
-        document.getElementById("contenidoJuguete").innerHTML = "<h3>Error: No se ha encontrado el juguete.</h3>";
-        return;
-      }
-
-      const juguete = juguetesData[categoria][id];
-      const enlaceAmazon = `${juguete.amazon}?tag=${AFFILIATE_TAG}`;
-
-      document.getElementById("tituloHero").textContent = juguete.titulo;
-
-      document.getElementById("contenidoJuguete").innerHTML = `
-        <div class="product-detail-card">
-          <img src="${juguete.imagenAmazon || 'img/juguete-default.png'}" alt="${juguete.titulo}">
-          <div class="product-detail-info">
-            <h3>${juguete.titulo}</h3>
-            <p><strong>Marca:</strong> ${juguete.marca || 'N/A'}</p>
-            <p><strong>Edad recomendada:</strong> ${juguete.edad || 'Consultar'}</p>
-            <p>⭐ ${juguete.rating || '4.5'}/5</p>
-            
-            <a href="${enlaceAmazon}" class="amazon-btn" target="_blank" rel="nofollow noopener">
-              🛒 Ver Precio en Amazon
-            </a>
-
-            <div style="margin-top:20px;">
-              <h4>Descripción:</h4>
-              <p>${juguete.descripcion || 'No hay descripción disponible para este juguete.'}</p>
-            </div>
-          </div>
-        </div>
-      `;
-    } catch (e) {
-      document.getElementById("contenidoJuguete").innerHTML = "<p>Error al cargar el catálogo.</p>";
+    if(!cat || !id || !data[cat] || !data[cat][id]){
+      document.getElementById("contenidoJuguete").innerHTML =
+        "<h3 style='text-align:center;'>Juguete no encontrado</h3>";
+      return;
     }
-  }
 
-  cargarJuguete();
+    const j = data[cat][id];
+    const linkAmazon = j.amazon.includes("tag=")
+      ? j.amazon
+      : `${j.amazon}?tag=${AFFILIATE_TAG}`;
+
+    document.title = `${j.titulo} – MejoresJuguetes.com`;
+    document.getElementById("tituloHero").textContent = j.titulo;
+
+    document.getElementById("contenidoJuguete").innerHTML = `
+      <div class="product-detail-card">
+        <img src="${j.imagenAmazon || DEFAULT_IMG}"
+             onerror="this.src='${DEFAULT_IMG}'"
+             alt="${j.titulo}">
+        <div class="product-detail-info">
+          <h2>${j.titulo}</h2>
+          <p><strong>Marca:</strong> ${j.marca || "No especificada"}</p>
+          <p><strong>Edad recomendada:</strong> ${j.edad || "Consultar fabricante"}</p>
+          <p>⭐ ${j.rating || "4.5"} / 5</p>
+
+          <a href="${linkAmazon}"
+             class="amazon-btn"
+             target="_blank"
+             rel="noopener sponsored">
+             🛒 Ver precio en Amazon
+          </a>
+
+          <h3>Descripción</h3>
+          <p>${j.descripcion || "Este juguete destaca por su popularidad y buenas valoraciones entre padres y especialistas."}</p>
+        </div>
+      </div>
+    `;
+  }catch(e){
+    document.getElementById("contenidoJuguete").innerHTML =
+      "<p style='text-align:center;'>Error al cargar el juguete.</p>";
+  }
+}
+
+cargarJuguete();
 </script>
+
 </body>
 </html>
