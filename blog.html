@@ -5,58 +5,51 @@
   <title>Blog – MejoresJuguetes.com</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/estilos.css">
-  <meta name="description" content="Artículos, guías y consejos reales para padres sobre juguetes, juego y crianza consciente en MejoresJuguetes.com.">
+  <meta name="description" content="Artículos, curiosidades y consejos para padres sobre juguetes y crianza.">
 
   <style>
-    .blog-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-      margin-top: 30px;
+    .blog-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+      margin-top:30px;
     }
-
-    .blog-card {
-      background: #fff;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid #e5e5e5;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-      transition: 0.2s ease;
-      text-decoration: none;
-      color: inherit;
-      display: block;
+    .blog-card{
+      background:#fff;
+      border-radius:14px;
+      overflow:hidden;
+      border:1px solid #e5e5e5;
+      box-shadow:0 4px 10px rgba(0,0,0,.08);
+      text-decoration:none;
+      color:inherit;
+      transition:.25s;
     }
-
-    .blog-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    .blog-card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 8px 20px rgba(0,0,0,.12);
     }
-
-    .blog-card img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
+    .blog-card img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      background:#f5f5f5;
     }
-
-    .blog-card-content {
-      padding: 18px;
+    .blog-card-content{
+      padding:18px;
     }
-
-    .blog-card h3 {
-      margin: 0 0 10px;
-      font-size: 1.2rem;
-      color: #0A3D62;
+    .blog-card h3{
+      margin:0 0 10px;
+      font-size:1.15rem;
+      color:#0A3D62;
     }
-
-    .blog-card p {
-      font-size: 0.95rem;
-      color: #444;
-      margin-bottom: 12px;
+    .blog-card p{
+      font-size:.95rem;
+      color:#444;
+      margin-bottom:12px;
     }
-
-    .leer-mas {
-      font-weight: 600;
-      color: #C9A86A;
+    .leer-mas{
+      font-weight:600;
+      color:#C9A86A;
     }
   </style>
 </head>
@@ -88,49 +81,49 @@
   </div>
 </header>
 
-<section class="hero" style="background-image: url('img/hero.png');">
+<section class="hero" style="background-image:url('img/hero.png');">
   <div class="container hero-overlay">
-    <h2>Guías y artículos para padres</h2>
-    <p>Consejos claros sobre juguetes, juego y crianza real, sin modas ni ruido.</p>
+    <h2>Artículos y guías para padres</h2>
+    <p>Consejos reales sobre juego, juguetes y crianza.</p>
   </div>
 </section>
 
 <main class="container">
 
 <section class="section">
-  <h2>Artículos destacados</h2>
+  <h2>Últimos artículos</h2>
 
   <div class="blog-grid">
 
     <a href="articulo1.html" class="blog-card">
-      <img src="img/blog1.png" alt="Cómo elegir el juguete perfecto">
+      <img src="img/blog1.png" onerror="this.src='img/hero.png'">
       <div class="blog-card-content">
         <h3>Cómo elegir el juguete perfecto sin volverte loco</h3>
-        <p>Guía práctica para acertar según la edad, el momento y las necesidades reales del niño.</p>
+        <p>Guía práctica para acertar según edad, momento y necesidades reales.</p>
         <span class="leer-mas">Leer más →</span>
       </div>
     </a>
 
     <a href="articulo2.html" class="blog-card">
-      <img src="img/blog2.png" alt="Juguetes que deberías conocer este año">
+      <img src="img/blog2.png" onerror="this.src='img/hero.png'">
       <div class="blog-card-content">
         <h3>Juguetes que deberías conocer este año</h3>
-        <p>Tipos de juguetes que están marcando tendencia por cómo acompañan el desarrollo infantil.</p>
+        <p>Tipos de juguetes que están marcando tendencia real.</p>
         <span class="leer-mas">Leer más →</span>
       </div>
     </a>
 
     <a href="articulo3.html" class="blog-card">
-      <img src="img/blog3.png" alt="Juego imaginativo">
+      <img src="img/blog3.png" onerror="this.src='img/hero.png'">
       <div class="blog-card-content">
         <h3>Los mejores juguetes para empezar con el juego imaginativo</h3>
-        <p>Ideas sencillas para fomentar el juego simbólico desde casa sin saturar.</p>
+        <p>Ideas sencillas para fomentar el juego simbólico sin saturar.</p>
         <span class="leer-mas">Leer más →</span>
       </div>
     </a>
 
     <a href="articulo4.html" class="blog-card">
-      <img src="img/blog4.png" alt="Hábito de juego sano">
+      <img src="img/hero.png">
       <div class="blog-card-content">
         <h3>Cómo crear un hábito de juego sano en casa</h3>
         <p>Rutinas simples para reducir pantallas y aumentar el juego de calidad.</p>
@@ -139,22 +132,15 @@
     </a>
 
     <a href="articulo5.html" class="blog-card">
-      <img src="img/blog5.png" alt="Juguetes que marcan la infancia">
+      <img src="img/hero.png">
       <div class="blog-card-content">
         <h3>Juguetes que marcan la infancia</h3>
-        <p>Esos juguetes que se recuerdan toda la vida y crean recuerdos reales.</p>
+        <p>Esos juguetes que se recuerdan toda la vida.</p>
         <span class="leer-mas">Leer más →</span>
       </div>
     </a>
 
   </div>
-</section>
-
-<section class="section">
-  <p style="max-width:900px;margin:auto;font-size:0.95rem;color:#555;text-align:center;">
-    En MejoresJuguetes.com publicamos contenidos pensados para ayudar de verdad a madres y padres,
-    basados en experiencia real, observación y sentido común.
-  </p>
 </section>
 
 </main>
